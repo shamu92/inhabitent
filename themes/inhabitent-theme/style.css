@@ -295,6 +295,27 @@ big {
   -ms-flex-preferred-size: 75%;
       flex-basis: 75%; }
 
+.side-bar {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%; }
+
+.header {
+  height: 46px;
+  border-bottom: 1px solid grey;
+  padding: 0 2rem;
+  position: fixed;
+  width: 100%; }
+
+.logo-top {
+  height: 55px;
+  width: auto;
+  padding-bottom: 15px; }
+
+.hero-banner {
+  background: url(../../images/logos/inhabitent-logo-full.svg) center no-repeat, url(../../images/home-hero.jpg);
+  height: 750px;
+  background-size: 50% 50%, cover; }
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -353,10 +374,6 @@ img {
 table {
   margin: 0 0 1.5em;
   width: 100%; }
-
-.logo-top {
-  height: 55px;
-  width: auto; }
 
 /*--------------------------------------------------------------
 # Forms
@@ -468,6 +485,9 @@ a {
         left: 100%; }
       .main-navigation ul ul a {
         width: 200px; }
+      .main-navigation ul ul a:hover,
+      .main-navigation ul ul a.focus {
+        color: lightgoldenrodyellow; }
     .main-navigation ul li:hover > ul,
     .main-navigation ul li.focus > ul {
       left: auto; }
@@ -695,7 +715,7 @@ object {
   padding-right: 4%;
   padding-bottom: 2%; }
   .site-footer h3 {
-    color: orange;
+    color: #d99054;
     text-transform: uppercase; }
   .site-footer p {
     color: white; }
