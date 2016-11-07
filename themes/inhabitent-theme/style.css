@@ -317,21 +317,28 @@ big {
   padding-top: 50px; }
 
 article {
-  -ms-flex-preferred-size: 75%;
-      flex-basis: 75%;
-  width: 736px;
-  padding: 2rem 3rem; }
+  width: 80%;
+  padding: 2rem 3rem;
+  padding-left: 0; }
+  article p {
+    width: 900px; }
+
+.entry-content {
+  width: 80%; }
 
 .side-bar {
-  -ms-flex-preferred-size: 25%;
-      flex-basis: 25%;
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
   border-left: 1px solid #e1e1e1;
   padding: 2rem 3rem;
   padding-right: 0; }
 
 .entry-header {
   position: relative;
-  width: 100%; }
+  width: 130%; }
+  .entry-header img {
+    width: 130%;
+    height: 130%; }
 
 .entry-title {
   position: absolute;
@@ -361,9 +368,9 @@ article {
   text-transform: uppercase;
   color: #fff; }
 
-.read-more {
-  padding-left: 3rem; }
-
+/*.read-more {
+    padding-left: 3rem;
+}*/
 .read-more-article {
   border: 1px solid black;
   text-decoration: none;

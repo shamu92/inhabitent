@@ -6,13 +6,20 @@
 }
 
 article {
-    flex-basis: 75%;
-    width: 736px;
+    width: 80%;
     padding: 2rem 3rem;
+    padding-left: 0;
+    p {
+        width: 900px;
+    }
+}
+
+.entry-content {
+    width: 80%;
 }
 
 .side-bar {
-    flex-basis: 25%;
+    flex-basis: 20%;
     border-left: 1px solid #e1e1e1;
     padding: 2rem 3rem;
     padding-right: 0;
@@ -20,7 +27,11 @@ article {
 
 .entry-header {
     position: relative;
-    width: 100%
+    width: 130%;
+    img {
+        width: 130%;
+        height: 130%;
+    }
 }
 
 .entry-title {
@@ -56,9 +67,10 @@ article {
     color: #fff;
 }
 
-.read-more {
+
+/*.read-more {
     padding-left: 3rem;
-}
+}*/
 
 .read-more-article {
     border: 1px solid black;
@@ -85,7 +97,7 @@ article {
         color: $company-green;
     }
 }
-.cat-links {
-        margin-right: 2rem;
 
+.cat-links {
+    margin-right: 2rem;
 }
