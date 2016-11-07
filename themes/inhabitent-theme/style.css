@@ -309,25 +309,94 @@ mark, ins {
 big {
   font-size: 125%; }
 
-.home-main-content {
-  display: -ms-flexbox;
-  display: flex; }
-
 .content-area {
+  display: -ms-flexbox;
+  display: flex;
+  width: 1120px;
+  margin: 0 auto;
+  padding-top: 50px; }
+
+article {
   -ms-flex-preferred-size: 75%;
-      flex-basis: 75%; }
+      flex-basis: 75%;
+  width: 736px;
+  padding: 2rem 3rem; }
 
 .side-bar {
   -ms-flex-preferred-size: 25%;
-      flex-basis: 25%; }
+      flex-basis: 25%;
+  border-left: 1px solid #e1e1e1;
+  padding: 2rem 3rem;
+  padding-right: 0; }
+
+.entry-header {
+  position: relative;
+  width: 100%; }
+
+.entry-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #248A83;
+  padding: 1rem 2rem;
+  max-width: 75%;
+  text-transform: uppercase; }
+  .entry-title a {
+    text-decoration: none;
+    width: 75%;
+    font-size: 2.5rem;
+    color: white; }
+    .entry-title a:visited {
+      color: white; }
+    .entry-title a:hover {
+      color: #f0e4d1; }
+
+.entry-meta {
+  position: absolute;
+  bottom: 6px;
+  right: 0;
+  background: #248a83;
+  padding: .2rem 1rem;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: #fff; }
+
+.read-more {
+  padding-left: 3rem; }
+
+.read-more-article {
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  padding: .8rem 1.2rem;
+  margin-top: 4%;
+  text-transform: uppercase; }
+  .read-more-article:visited {
+    color: black; }
+  .read-more-article:hover {
+    background-color: #248A83;
+    border: 1px solid #248A83;
+    color: white; }
+
+.entry-footer {
+  text-transform: uppercase; }
+  .entry-footer a {
+    text-decoration: none;
+    color: #248A83; }
+
+.cat-links {
+  margin-right: 2rem; }
 
 .header {
-  height: 46px;
+  height: 50px;
   border-bottom: 1px solid #e1e1e1;
   padding: 0 2rem;
+  width: 1120px;
   position: fixed;
   width: 100%;
-  background: rgba(255, 255, 255, 0.3); }
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 1; }
 
 .logo-top {
   height: 55px;
@@ -349,13 +418,17 @@ big {
   .adventures a {
     text-decoration: none;
     color: white; }
-  .adventures a:visited {
-    color: white; }
+    .adventures a:visited {
+      color: white; }
+    .adventures a:hover {
+      color: #f0e4d1; }
 
 .latest-adventures {
   font-size: 3rem;
   text-transform: uppercase;
   text-align: center; }
+  .latest-adventures p:hover {
+    color: white; }
 
 .box-1 {
   height: 100%;
@@ -415,16 +488,52 @@ big {
   border-top: solid 10px white;
   font-size: 2.7rem; }
 
+.read-more {
+  padding-left: 3rem; }
+
 .read-more-button {
   border: 1px solid white;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: .8rem 1.2rem;
   margin-top: 4%;
   text-transform: uppercase; }
+  .read-more-button:hover {
+    background-color: #248A83;
+    border: 1px solid #248A83;
+    color: white; }
 
-.read-more-button:hover {
-  background-color: #248A83;
-  border: 1px solid #248A83; }
+.entry-header h1 {
+  color: white; }
+
+.entry-meta a {
+  color: white;
+  text-decoration: none; }
+
+.like-button,
+.twitter-button,
+.pinterest-button {
+  border: 1px solid black;
+  margin-bottom: 4rem;
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  padding: .6rem 1.3rem;
+  margin-top: 4%;
+  text-transform: uppercase; }
+  .like-button:visited,
+  .twitter-button:visited,
+  .pinterest-button:visited {
+    color: black; }
+  .like-button:hover,
+  .twitter-button:hover,
+  .pinterest-button:hover {
+    background-color: #248A83;
+    border: 1px solid #248A83;
+    color: white; }
+
+.nav-previous,
+.nav-next {
+  display: none; }
 
 /*--------------------------------------------------------------
 # Elements
@@ -571,6 +680,9 @@ a {
   padding-right: 30px;
   text-transform: uppercase;
   font-size: 1.4rem; }
+
+.menu-item a:hover {
+  color: #f0e4d1; }
 
 .main-navigation {
   clear: both;
@@ -816,7 +928,6 @@ object {
 .site-footer {
   background: url(../../images/dark-wood@2x.png);
   background-size: 512px 512px;
-  font-family: 'merriweather';
   padding-top: 4%;
   padding-left: 5%;
   padding-right: 5%;

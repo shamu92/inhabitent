@@ -22,7 +22,9 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<?php get_template_part( 'template-parts/content' ); ?>
-
+				<div class= "read-more">
+					<p><a class = "read-more-article" href ="#">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
+				</div>
 			<?php endwhile; ?>
 
 			<?php the_posts_navigation(); ?>
@@ -32,10 +34,12 @@ get_header(); ?>
 			<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
 		<?php endif; ?>
-
+	
 		</main><!-- #main -->
+	
+			<?php get_sidebar(); ?>
 	</div><!-- #primary -->
 
-	<?php get_sidebar(); ?>
+
 
 <?php get_footer(); ?>

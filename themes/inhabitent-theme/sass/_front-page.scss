@@ -1,101 +1,111 @@
-    .hero-banner {
-        background: url(../../images/logos/inhabitent-logo-full.svg) center no-repeat, linear-gradient(rgba(0, 0, 0, .4) 0, rgba(0, 0, 0, .4)), url(../../images/home-hero.jpg);
-        height: 100vh;
-        background-size: 50% 50%, cover, cover;
-    }
-    
-    .adventures {
-        display: flex;
-        height: 750px;
-        margin: 0 auto;
-        width: 90%;
-        margin-bottom: 20px;
-        a {
-            text-decoration: none;
+.hero-banner {
+    background: url(../../images/logos/inhabitent-logo-full.svg) center no-repeat, linear-gradient(rgba(0, 0, 0, .4) 0, rgba(0, 0, 0, .4)), url(../../images/home-hero.jpg);
+    height: 100vh;
+    background-size: 50% 50%, cover, cover;
+}
+
+.adventures {
+    display: flex;
+    height: 750px;
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 20px;
+    a {
+        text-decoration: none;
+        color: white;
+        &:visited {
             color: white;
         }
-        a:visited {
-            color: white;
+        &:hover {
+            color: #f0e4d1
         }
     }
-    
-    .latest-adventures {
-        font-size: 3rem;
-        text-transform: uppercase;
-        text-align: center;
+}
+
+.latest-adventures {
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    p:hover {
+        color: white;
     }
-    
-    // Fix width. Not matching up with the example site.
-    .box-1 {
-        height: 100%;
-        width: 50%;
-        padding-left: 3%;
-        padding-right: 3%;
-        background: linear-gradient(rgba(0, 0, 0, .4) 0, rgba(0, 0, 0, .4)), url(../../images/adventure-photos/canoe-girl.jpg) center;
-        background-size: cover, cover;
-        border-right: solid 10px white;
-        font-size: 4.6rem;
-    }
-    
-    .right-box {
-        width: 50%;
-        height: 100%;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    .bottom-right-box {
-        display: flex;
-        width: 100%;
-        height: 50%
-    }
-    
-    .box-2 {
-        height: 50%;
-        width: 100%;
-        padding-left: 3%;
-        padding-right: 3%;
-        background: linear-gradient(rgba(0, 0, 0, .4) 0, rgba(0, 0, 0, .4)), url(../../images/adventure-photos/beach-bonfire.jpg) center;
-        background-size: cover, cover;
-        border-left: solid 10px white;
-        border-bottom: solid 10px white;
-        font-size: 4rem;
-    }
-    
-    .box-3 {
-        height: 100%;
-        width: 50%;
-        padding-left: 3%;
-        padding-right: 3%;
-        background: linear-gradient(rgba(0, 0, 0, .4) 0, rgba(0, 0, 0, .4)), url(../../images/adventure-photos/mountain-hikers.jpg) center;
-        background-size: cover, cover;
-        border-top: solid 10px white;
-        border-left: solid 10px white;
-        border-right: solid 10px white;
-        font-size: 3rem;
-    }
-    
-    .box-4 {
-        height: 100%;
-        width: 50%;
-        padding-left: 3%;
-        padding-right: 3%;
-        background: linear-gradient(rgba(0, 0, 0, .4) 0, rgba(0, 0, 0, .4)), url(../../images/adventure-photos/night-sky.jpg) center;
-        background-size: cover, cover;
-        border-left: solid 10px white;
-        border-top: solid 10px white;
-        font-size: 2.7rem;
-    }
-    
-    .read-more-button {
-        border: 1px solid white;
-        font-size: 1.5rem;
-        padding: .8rem 1.2rem;
-        margin-top: 4%;
-        text-transform: uppercase;
-    }
-    
-    .read-more-button:hover {
+}
+
+// Fix width. Not matching up with the example site.
+.box-1 {
+    height: 100%;
+    width: 50%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background: linear-gradient(rgba(0, 0, 0, .4) 0, rgba(0, 0, 0, .4)), url(../../images/adventure-photos/canoe-girl.jpg) center;
+    background-size: cover, cover;
+    border-right: solid 10px white;
+    font-size: 4.6rem;
+}
+
+.right-box {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bottom-right-box {
+    display: flex;
+    width: 100%;
+    height: 50%
+}
+
+.box-2 {
+    height: 50%;
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background: linear-gradient(rgba(0, 0, 0, .4) 0, rgba(0, 0, 0, .4)), url(../../images/adventure-photos/beach-bonfire.jpg) center;
+    background-size: cover, cover;
+    border-left: solid 10px white;
+    border-bottom: solid 10px white;
+    font-size: 4rem;
+}
+
+.box-3 {
+    height: 100%;
+    width: 50%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background: linear-gradient(rgba(0, 0, 0, .4) 0, rgba(0, 0, 0, .4)), url(../../images/adventure-photos/mountain-hikers.jpg) center;
+    background-size: cover, cover;
+    border-top: solid 10px white;
+    border-left: solid 10px white;
+    border-right: solid 10px white;
+    font-size: 3rem;
+}
+
+.box-4 {
+    height: 100%;
+    width: 50%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background: linear-gradient(rgba(0, 0, 0, .4) 0, rgba(0, 0, 0, .4)), url(../../images/adventure-photos/night-sky.jpg) center;
+    background-size: cover, cover;
+    border-left: solid 10px white;
+    border-top: solid 10px white;
+    font-size: 2.7rem;
+}
+
+.read-more {
+    padding-left: 3rem;
+}
+
+.read-more-button {
+    border: 1px solid white;
+    font-size: 1rem;
+    padding: .8rem 1.2rem;
+    margin-top: 4%;
+    text-transform: uppercase;
+    &:hover {
         background-color: $company-green;
         border: 1px solid $company-green;
+        color: white;
     }
+}

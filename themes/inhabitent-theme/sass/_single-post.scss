@@ -1,0 +1,34 @@
+.entry-header h1 {
+    color: white;
+}
+
+.entry-meta a {
+    color: white;
+    text-decoration: none;
+}
+
+.like-button,
+.twitter-button,
+.pinterest-button {
+    border: 1px solid black;
+    margin-bottom: 4rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    padding: .6rem 1.3rem;
+    margin-top: 4%;
+    text-transform: uppercase;
+    &:visited {
+        color: black;
+    }
+    &:hover {
+        background-color: $company-green;
+        border: 1px solid $company-green;
+        color: white;
+    }
+}
+
+.nav-previous,
+.nav-next {
+    display: none;
+}
