@@ -954,6 +954,8 @@ object {
   .contact a {
     text-decoration: none;
     color: white; }
+  .contact a:hover {
+    text-decoration: underline; }
 
 .business-hours {
   -ms-flex-preferred-size: 25%;
