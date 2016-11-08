@@ -312,35 +312,37 @@ big {
 .content-area {
   display: -ms-flexbox;
   display: flex;
+  padding-top: 50px;
   width: 1120px;
-  margin: 0 auto;
-  padding-top: 50px; }
+  margin: 0 auto; }
 
-article {
-  width: 80%;
-  padding: 2rem 3rem;
-  padding-left: 0; }
-  article p {
-    width: 900px; }
+.type-post {
+  width: 75%; }
+  .type-post p {
+    width: 960px; }
 
-.entry-content {
-  width: 80%; }
+.type-post .entry-content {
+  width: 960px; }
 
 .side-bar {
-  -ms-flex-preferred-size: 20%;
-      flex-basis: 20%;
+  width: 1600px;
   border-left: 1px solid #e1e1e1;
   padding: 2rem 3rem;
   padding-right: 0; }
+  .side-bar h3 {
+    font-size: 2rem;
+    text-transform: uppercase; }
 
-.entry-header {
+.type-post .entry-header {
   position: relative;
-  width: 130%; }
-  .entry-header img {
-    width: 130%;
-    height: 130%; }
+  width: 960px;
+  margin: 4rem;
+  margin-left: 0; }
+  .type-post .entry-header img {
+    width: 1000px;
+    height: auto; }
 
-.entry-title {
+.type-post .entry-title {
   position: absolute;
   top: 0;
   left: 0;
@@ -348,17 +350,17 @@ article {
   padding: 1rem 2rem;
   max-width: 75%;
   text-transform: uppercase; }
-  .entry-title a {
+  .type-post .entry-title a {
     text-decoration: none;
     width: 75%;
     font-size: 2.5rem;
     color: white; }
-    .entry-title a:visited {
+    .type-post .entry-title a:visited {
       color: white; }
-    .entry-title a:hover {
+    .type-post .entry-title a:hover {
       color: #f0e4d1; }
 
-.entry-meta {
+.type-post .entry-meta {
   position: absolute;
   bottom: 6px;
   right: 0;
@@ -386,9 +388,9 @@ article {
     border: 1px solid #248A83;
     color: white; }
 
-.entry-footer {
+.type-post .entry-footer {
   text-transform: uppercase; }
-  .entry-footer a {
+  .type-post .entry-footer a {
     text-decoration: none;
     color: #248A83; }
 
@@ -502,7 +504,7 @@ article {
   border: 1px solid white;
   font-size: 1rem;
   padding: .8rem 1.2rem;
-  margin-top: 4%;
+  /*margin-top: 4%;*/
   text-transform: uppercase; }
   .read-more-button:hover {
     background-color: #248A83;
@@ -759,6 +761,26 @@ a {
   float: right;
   text-align: right;
   width: 50%; }
+
+.product-area {
+  height: 2000px; }
+
+/*.product-area article h2 {
+    position: static;
+}*/
+.all-products {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+  .all-products img {
+    height: 300px;
+    /*max-width: none*/ }
+
+.one-product {
+  width: 25%; }
 
 /*--------------------------------------------------------------
 # Accessibility

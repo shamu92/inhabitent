@@ -1,0 +1,22 @@
+.product-area {
+    height: 2000px;
+}
+
+
+/*.product-area article h2 {
+    position: static;
+}*/
+
+.all-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    img {
+        height: 300px;
+        /*max-width: none*/
+    }
+}
+
+.one-product {
+    width: 25%;
+}
