@@ -21,6 +21,26 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
+<section class = "product-types">
+    <?php
+
+    $terms = get_terms('product_type');
+    foreach ($terms as $term):
+    ?>
+
+    <div class="product-type">
+        <?php $url = get_term_link ($term->slug , 'product_type'); ?>
+    
+
+        <img src="<?php echo get_template_directory_uri() ?>/images/product-type-icons/<?php echo $term->slug?>.svg">
+        <p> <?php echo $term->description ?> </p>
+        <a href=" "> <?php echo $term->name . 'Stuff'; ?> </a>
+    </div>
+
+<?php endforeach; ?>
+
+</section>
+
 
 <section class="recent-posts">    
     <?php

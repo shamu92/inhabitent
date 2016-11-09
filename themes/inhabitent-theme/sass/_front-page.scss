@@ -4,6 +4,17 @@
     background-size: 50% 50%, cover, cover;
 }
 
+.product-types {
+    display: flex;
+    justify-content: center;
+    width: 1120px;
+    margin: 0 auto;
+}
+.product-type {
+    display:flex;
+    height:300px;
+    width:300px;
+}
 .adventures {
     display: flex;
     height: 600px;
