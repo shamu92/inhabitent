@@ -21,6 +21,8 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
+
+    <h2 class ="front-page-h2">Shop Stuff</h2>
 <section class = "product-types">
     <?php
 
@@ -30,18 +32,17 @@ get_header(); ?>
 
     <div class="product-type">
         <?php $url = get_term_link ($term->slug , 'product_type'); ?>
-    
 
         <img src="<?php echo get_template_directory_uri() ?>/images/product-type-icons/<?php echo $term->slug?>.svg">
         <p> <?php echo $term->description ?> </p>
-        <a href=" "> <?php echo $term->name . 'Stuff'; ?> </a>
+        <div class = "category-link-button"><a href="<?php echo $url ?>"> <?php echo $term->name . ' Stuff'; ?> </a></div>
     </div>
 
 <?php endforeach; ?>
 
 </section>
 
-
+<h2 class ="front-page-h2">Inhabitent Journal</h2>
 <section class="recent-posts">    
     <?php
         $args = array( 'post_type' => 'post',
@@ -50,14 +51,16 @@ get_header(); ?>
         $posts = get_posts( $args ); // returns an array of posts
     ?>
     <?php foreach ( $posts as $post ) : setup_postdata( $post ); ?>
-
-        <?php the_post_thumbnail(["400px, 400px"]); ?>
+    <div class = "home-page-journal-entry">
+        <?php the_post_thumbnail(["365px, 250px"]); ?>
         <div class = "home-page-journal-info">
             <?php the_date(); ?>
             <?php comments_number(); ?>
             <?php the_permalink();?>
               <h2><?php the_title();?></h2>
+              <a class = "journal-link-button" href="">Read Entry</a>
         </div>
+    </div>
 
 
     <?php endforeach; wp_reset_postdata(); ?>
@@ -68,7 +71,7 @@ get_header(); ?>
 
 
 <div class= "latest-adventures">
-    <h2 class ="latest-adventures-title">Latest Adventures</h2>
+    <h2 class ="front-page-h2">Latest Adventures</h2>
 
     <section class= "adventures">
         <div class="box-1">
