@@ -59,3 +59,4 @@ function register_product_cpt() {
 
 }
 add_action( 'init', 'register_product_cpt', 0 );
+

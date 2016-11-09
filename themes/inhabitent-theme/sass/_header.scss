@@ -1,16 +1,26 @@
-.header {
-    height: 50px;
-    border-bottom: 1px solid #e1e1e1;
-    padding: 0 2rem;
-    width: 1120px;
-    position: fixed;
-    width: 100%;
+.header-background {
+    display: flex;
     background: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid #e1e1e1;
+    width: 100%;
+    position: fixed;
     z-index: 1;
+}
+
+.header {
+    display: flex;
+    height: 50px;
+    width: 1120px;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .logo-top {
     height: 55px;
     width: auto;
     padding-bottom: 15px;
+}
+
+.main-nav-bar {
+    display: inline-block;
 }

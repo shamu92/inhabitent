@@ -6,9 +6,9 @@
 
 .adventures {
     display: flex;
-    height: 750px;
+    height: 600px;
     margin: 0 auto;
-    width: 90%;
+    width: 1120px;
     margin-bottom: 20px;
     a {
         text-decoration: none;
@@ -23,6 +23,10 @@
 }
 
 .latest-adventures {
+    line-height: 1;
+}
+
+.latest-adventures-title {
     font-size: 3rem;
     text-transform: uppercase;
     text-align: center;
@@ -35,12 +39,11 @@
 .box-1 {
     height: 100%;
     width: 50%;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding: 4rem 2rem;
     background: linear-gradient(rgba(0, 0, 0, .4) 0, rgba(0, 0, 0, .4)), url(../../images/adventure-photos/canoe-girl.jpg) center;
     background-size: cover, cover;
     border-right: solid 10px white;
-    font-size: 4.6rem;
+    font-size: 3.6rem;
 }
 
 .right-box {
@@ -59,38 +62,35 @@
 .box-2 {
     height: 50%;
     width: 100%;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding: 4rem 2rem;
     background: linear-gradient(rgba(0, 0, 0, .4) 0, rgba(0, 0, 0, .4)), url(../../images/adventure-photos/beach-bonfire.jpg) center;
     background-size: cover, cover;
     border-left: solid 10px white;
     border-bottom: solid 10px white;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .box-3 {
     height: 100%;
     width: 50%;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding: 4rem 2rem;
     background: linear-gradient(rgba(0, 0, 0, .4) 0, rgba(0, 0, 0, .4)), url(../../images/adventure-photos/mountain-hikers.jpg) center;
     background-size: cover, cover;
     border-top: solid 10px white;
     border-left: solid 10px white;
     border-right: solid 10px white;
-    font-size: 3rem;
+    font-size: 1.9rem;
 }
 
 .box-4 {
     height: 100%;
     width: 50%;
-    padding-left: 3%;
-    padding-right: 3%;
-    background: linear-gradient(rgba(0, 0, 0, .4) 0, rgba(0, 0, 0, .4)), url(../../images/adventure-photos/night-sky.jpg) center;
+    padding: 4rem 2rem;
+    background: linear-gradient(rgba(0, 0, 0, .1) 0, rgba(0, 0, 0, .1)), url(../../images/adventure-photos/night-sky.jpg) center;
     background-size: cover, cover;
     border-left: solid 10px white;
     border-top: solid 10px white;
-    font-size: 2.7rem;
+    font-size: 1.9rem;
 }
 
 .read-more {
@@ -101,11 +101,23 @@
     border: 1px solid white;
     font-size: 1rem;
     padding: .8rem 1.2rem;
-    /*margin-top: 4%;*/
     text-transform: uppercase;
     &:hover {
         background-color: $company-green;
         border: 1px solid $company-green;
+        color: white;
+    }
+}
+
+.more-adventures-button {
+    font-size: 1rem;
+    padding: .8rem 1.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    background-color: $company-green;
+    &:hover {
+        background-color: ($company-green, darken);
         color: white;
     }
 }

@@ -22,8 +22,31 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<div>
-    <h2 class ="latest-adventures">Latest Adventures</h2>
+<section class="recent-posts">    
+    <?php
+        $args = array( 'post_type' => 'post',
+                        'order' => 'ASC', 
+                        'posts_per_page'=> 3 );
+        $posts = get_posts( $args ); // returns an array of posts
+    ?>
+    <?php foreach ( $posts as $post ) : setup_postdata( $post ); ?>
+
+        <?php the_post_thumbnail(["400px, 400px"]); ?>
+        <div class = "home-page-journal-info">
+            <?php the_date(); ?>
+            <?php comments_number(); ?>
+            <?php the_permalink();?>
+              <h2><?php the_title();?></h2>
+        </div>
+
+
+    <?php endforeach; wp_reset_postdata(); ?>
+</section>
+
+
+
+<div class= "latest-adventures">
+    <h2 class ="latest-adventures-title">Latest Adventures</h2>
 
     <section class= "adventures">
         <div class="box-1">
@@ -49,6 +72,8 @@ get_header(); ?>
                 </div>
             </div>
         </div>
+        
     </section>
+     <p><a class = "more-adventures-button" href ="#">More Adventure</a></p>
 </div>
 <?php get_footer(); ?>

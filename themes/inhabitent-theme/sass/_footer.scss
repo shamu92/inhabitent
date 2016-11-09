@@ -1,9 +1,6 @@
 .site-footer {
     background: url(../../images/dark-wood@2x.png);
-    background-size: 512px 512px;
     padding-top: 4%;
-    padding-left: 5%;
-    padding-right: 5%;
     padding-bottom: 2%;
     h3 {
         color: #d99054;
@@ -15,6 +12,8 @@
 }
 
 .footer-content {
+    width:1120px;
+    margin:0 auto;
     display: flex;
     h3 {
         font-size: 1.5rem;

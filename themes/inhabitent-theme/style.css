@@ -325,7 +325,7 @@ big {
   width: 960px; }
 
 .side-bar {
-  width: 1600px;
+  width: 160px;
   border-left: 1px solid #e1e1e1;
   padding: 2rem 3rem;
   padding-right: 0; }
@@ -397,20 +397,31 @@ big {
 .cat-links {
   margin-right: 2rem; }
 
-.header {
-  height: 50px;
-  border-bottom: 1px solid #e1e1e1;
-  padding: 0 2rem;
-  width: 1120px;
-  position: fixed;
-  width: 100%;
+.header-background {
+  display: -ms-flexbox;
+  display: flex;
   background: rgba(255, 255, 255, 0.8);
+  border-bottom: 1px solid #e1e1e1;
+  width: 100%;
+  position: fixed;
   z-index: 1; }
+
+.header {
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  width: 1120px;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin: 0 auto; }
 
 .logo-top {
   height: 55px;
   width: auto;
   padding-bottom: 15px; }
+
+.main-nav-bar {
+  display: inline-block; }
 
 .hero-banner {
   background: url(../../images/logos/inhabitent-logo-full.svg) center no-repeat, linear-gradient(rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), url(../../images/home-hero.jpg);
@@ -420,9 +431,9 @@ big {
 .adventures {
   display: -ms-flexbox;
   display: flex;
-  height: 750px;
+  height: 600px;
   margin: 0 auto;
-  width: 90%;
+  width: 1120px;
   margin-bottom: 20px; }
   .adventures a {
     text-decoration: none;
@@ -433,21 +444,23 @@ big {
       color: #f0e4d1; }
 
 .latest-adventures {
+  line-height: 1; }
+
+.latest-adventures-title {
   font-size: 3rem;
   text-transform: uppercase;
   text-align: center; }
-  .latest-adventures p:hover {
+  .latest-adventures-title p:hover {
     color: white; }
 
 .box-1 {
   height: 100%;
   width: 50%;
-  padding-left: 3%;
-  padding-right: 3%;
+  padding: 4rem 2rem;
   background: linear-gradient(rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), url(../../images/adventure-photos/canoe-girl.jpg) center;
   background-size: cover, cover;
   border-right: solid 10px white;
-  font-size: 4.6rem; }
+  font-size: 3.6rem; }
 
 .right-box {
   width: 50%;
@@ -466,36 +479,33 @@ big {
 .box-2 {
   height: 50%;
   width: 100%;
-  padding-left: 3%;
-  padding-right: 3%;
+  padding: 4rem 2rem;
   background: linear-gradient(rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), url(../../images/adventure-photos/beach-bonfire.jpg) center;
   background-size: cover, cover;
   border-left: solid 10px white;
   border-bottom: solid 10px white;
-  font-size: 4rem; }
+  font-size: 3rem; }
 
 .box-3 {
   height: 100%;
   width: 50%;
-  padding-left: 3%;
-  padding-right: 3%;
+  padding: 4rem 2rem;
   background: linear-gradient(rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), url(../../images/adventure-photos/mountain-hikers.jpg) center;
   background-size: cover, cover;
   border-top: solid 10px white;
   border-left: solid 10px white;
   border-right: solid 10px white;
-  font-size: 3rem; }
+  font-size: 1.9rem; }
 
 .box-4 {
   height: 100%;
   width: 50%;
-  padding-left: 3%;
-  padding-right: 3%;
-  background: linear-gradient(rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), url(../../images/adventure-photos/night-sky.jpg) center;
+  padding: 4rem 2rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.1) 0, rgba(0, 0, 0, 0.1)), url(../../images/adventure-photos/night-sky.jpg) center;
   background-size: cover, cover;
   border-left: solid 10px white;
   border-top: solid 10px white;
-  font-size: 2.7rem; }
+  font-size: 1.9rem; }
 
 .read-more {
   padding-left: 3rem; }
@@ -504,11 +514,21 @@ big {
   border: 1px solid white;
   font-size: 1rem;
   padding: .8rem 1.2rem;
-  /*margin-top: 4%;*/
   text-transform: uppercase; }
   .read-more-button:hover {
     background-color: #248A83;
     border: 1px solid #248A83;
+    color: white; }
+
+.more-adventures-button {
+  font-size: 1rem;
+  padding: .8rem 1.2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  background-color: #248A83; }
+  .more-adventures-button:hover {
+    background-color: #248A83, darken;
     color: white; }
 
 .entry-header h1 {
@@ -687,6 +707,8 @@ a {
   color: #248A83;
   padding: 5px;
   padding-right: 30px;
+  display: -ms-flexbox;
+  display: flex;
   text-transform: uppercase;
   font-size: 1.4rem; }
 
@@ -694,11 +716,7 @@ a {
   color: #f0e4d1; }
 
 .main-navigation {
-  clear: both;
   display: block;
-  float: left;
-  display: -ms-flexbox;
-  display: flex;
   -ms-flex-pack: justify;
       justify-content: space-between;
   width: 100%; }
@@ -781,6 +799,29 @@ a {
 
 .one-product {
   width: 25%; }
+
+.about-hero {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 100vh;
+  color: white;
+  text-transform: uppercase;
+  font-size: 2rem; }
+
+.about-content {
+  height: 600px;
+  margin: 0 auto;
+  width: 1120px; }
+  .about-content h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.6rem; }
+  .about-content p {
+    margin: 0 5rem; }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -956,10 +997,7 @@ object {
 /* Front page */
 .site-footer {
   background: url(../../images/dark-wood@2x.png);
-  background-size: 512px 512px;
   padding-top: 4%;
-  padding-left: 5%;
-  padding-right: 5%;
   padding-bottom: 2%; }
   .site-footer h3 {
     color: #d99054;
@@ -968,6 +1006,8 @@ object {
     color: white; }
 
 .footer-content {
+  width: 1120px;
+  margin: 0 auto;
   display: -ms-flexbox;
   display: flex; }
   .footer-content h3 {
