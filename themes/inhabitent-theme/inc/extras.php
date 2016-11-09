@@ -37,7 +37,7 @@ add_action( 'login_enqueue_scripts', 'my_login_logo' );
 */
 function tent_styles_method() {
 
-                if(!is_page_template( 'page-about.php' )){
+                if(!is_page_template( 'about.php' )){
                     return;
                 }
 

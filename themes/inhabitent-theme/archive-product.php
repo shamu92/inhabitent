@@ -7,14 +7,16 @@
 
 get_header(); ?>
 
+
+
 	<div id="primary" class="content-area product-area">
 		<main id="main" class="site-main" role="main">
-    
+    <h1 class="shop-title">Shop</h1>
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
 				<?php
-					the_archive_title( '<h1 class="page-title">', '</h1>' );
+					
 					the_archive_description( '<div class="taxonomy-description">', '</div>' );
 				?>
 			</header><!-- .page-header -->
@@ -24,9 +26,9 @@ get_header(); ?>
             
                 <div class = "one-product">
 				    <?php
-					    get_template_part( 'template-parts/content' );
+					    get_template_part( 'template-parts/content-products' );
 				    ?>
-                    <?php echo CFS()->get( 'product_price' ); ?>
+                
                 </div>
               
 			<?php endwhile; ?>
@@ -35,7 +37,7 @@ get_header(); ?>
 
 		<?php else : ?>
 
-			<?php get_template_part( 'template-parts/content', 'none' ); ?>
+			<?php get_template_part( 'template-parts/content-products', 'none' ); ?>
 
 		<?php endif; ?>
     </section>  

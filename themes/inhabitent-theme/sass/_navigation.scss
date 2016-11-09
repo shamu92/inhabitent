@@ -30,11 +30,11 @@ a {
 .menu-item {
     a {
         color: $company-green;
-        padding: 5px;
-        padding-right: 30px;
+        padding: 1rem;
+        padding-right: 2rem;
         display: flex;
         text-transform: uppercase;
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
     a:hover {
         color: #f0e4d1

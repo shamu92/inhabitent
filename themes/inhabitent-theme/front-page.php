@@ -43,6 +43,8 @@ get_header(); ?>
     <?php endforeach; wp_reset_postdata(); ?>
 </section>
 
+    
+
 
 
 <div class= "latest-adventures">

@@ -8,28 +8,36 @@
 .type-post {
     width: 75%;
     p {
-        width: 960px;
+        width: 820px;
     }
 }
 
 .type-post .entry-content {
-    width: 960px;
+    width: 820px;
 }
 
 .side-bar {
-    width: 160px;
+    width: 300px;
+    /*height: 100%;*/
     border-left: 1px solid #e1e1e1;
     padding: 2rem 3rem;
     padding-right: 0;
+    font-size: 1.2rem;
+    padding-top: 3rem;
     h3 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    a {
+        text-decoration: none;
+        color: $company-green;
     }
 }
 
 .type-post .entry-header {
     position: relative;
-    width: 960px;
+    width: 820px;
     margin: 4rem;
     margin-left: 0;
     img {
