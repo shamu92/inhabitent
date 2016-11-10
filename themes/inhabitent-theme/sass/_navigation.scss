@@ -31,7 +31,7 @@ a {
     a {
         color: $company-green;
         padding: 1rem;
-        padding-right: 2rem;
+        padding-right: 1.6rem;
         display: flex;
         text-transform: uppercase;
         font-size: 1rem;
@@ -42,7 +42,7 @@ a {
 }
 
 .main-navigation {
-    display: block;
+    display: flex;
     justify-content: space-between;
     width: 100%;
     ul {

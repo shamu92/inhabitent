@@ -23,14 +23,14 @@ get_header(); ?>
 	</div><!-- #primary -->
 
     <h2 class ="front-page-h2">Shop Stuff</h2>
-<section class = "product-types">
+<section class = "product-types-on-front-page">
     <?php
 
     $terms = get_terms('product_type');
     foreach ($terms as $term):
     ?>
 
-    <div class="product-type">
+    <div class="product-type-on-front-page">
         <?php $url = get_term_link ($term->slug , 'product_type'); ?>
 
         <img src="<?php echo get_template_directory_uri() ?>/images/product-type-icons/<?php echo $term->slug?>.svg">
@@ -54,7 +54,7 @@ get_header(); ?>
     <div class = "home-page-journal-entry">
         <?php the_post_thumbnail(["365px, 250px"]); ?>
         <div class = "home-page-journal-info">
-            <?php the_date(); ?>
+            <?php the_date(); ?> /
             <?php comments_number(); ?>
             <?php the_permalink();?>
               <h2><?php the_title();?></h2>
@@ -99,6 +99,6 @@ get_header(); ?>
         </div>
         
     </section>
-     <p><a class = "more-adventures-button" href ="#">More Adventure</a></p>
+     <p><a class = "more-adventures-button" href ="#">More Adventures</a></p>
 </div>
 <?php get_footer(); ?>

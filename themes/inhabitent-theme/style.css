@@ -422,7 +422,7 @@ big {
   background-size: 50% 50%, cover, cover; }
 
 /*********Product categories styling*************************/
-.product-types {
+.product-types-on-front-page {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
@@ -431,7 +431,7 @@ big {
   margin: 0 auto;
   height: 350px; }
 
-.product-type {
+.product-type-on-front-page {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: column;
@@ -443,18 +443,25 @@ big {
   border: 1px solid #e1e1e1;
   border-top-width: 5px;
   font-size: 1.1rem; }
-  .product-type img {
+  .product-type-on-front-page:hover {
+    border: 1px solid #d99054;
+    border-top-width: 5px; }
+  .product-type-on-front-page img {
     width: 75px;
     margin: 0 auto; }
-  .product-type a {
+  .product-type-on-front-page a {
     color: white;
     text-decoration: none;
     text-transform: uppercase; }
-  .product-type .category-link-button {
+    .product-type-on-front-page a:hover {
+      color: white; }
+  .product-type-on-front-page .category-link-button {
     width: 140px;
     margin: 0 auto;
     padding: .8rem 0;
     background: #248A83; }
+    .product-type-on-front-page .category-link-button:hover {
+      background: #19625d; }
 
 /*********INhabitent Journal Styling*************************/
 .recent-posts {
@@ -580,6 +587,7 @@ big {
     color: white; }
 
 .more-adventures-button {
+  margin-left: 140px;
   font-size: 1rem;
   padding: .8rem 1.2rem;
   text-transform: uppercase;
@@ -587,7 +595,7 @@ big {
   color: white;
   background-color: #248A83; }
   .more-adventures-button:hover {
-    background-color: #248A83, darken;
+    background: #19625d;
     color: white; }
 
 .entry-header h1 {
@@ -645,19 +653,19 @@ big {
   padding-right: 0;
   font-size: 1.2rem;
   padding-top: 3rem; }
+  .widget-area h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.5rem; }
+  .widget-area a {
+    text-decoration: none;
+    color: #248A83; }
   .widget-area ul {
     list-style-type: none;
     padding: 0;
     margin: 0; }
-    .widget-area ul a {
-      text-decoration: none; }
-    .widget-area ul h2 {
-      font-size: 1.5rem;
-      text-transform: uppercase;
-      letter-spacing: 2px; }
-    .widget-area ul a {
-      text-decoration: none;
-      color: #248A83; }
+  .widget-area h2 {
+    text-transform: uppercase; }
 
 /*.textwidget a {
     text-decoration: none;
@@ -809,7 +817,7 @@ a {
 .menu-item a {
   color: #248A83;
   padding: 1rem;
-  padding-right: 2rem;
+  padding-right: 1.6rem;
   display: -ms-flexbox;
   display: flex;
   text-transform: uppercase;
@@ -819,7 +827,8 @@ a {
   color: #f0e4d1; }
 
 .main-navigation {
-  display: block;
+  display: -ms-flexbox;
+  display: flex;
   -ms-flex-pack: justify;
       justify-content: space-between;
   width: 100%; }
@@ -912,9 +921,14 @@ a {
   margin-top: 6rem;
   height: 5px; }
 
+/*****************************************fix this ****************************************************************
+************************************************************************
+***********************************************************************************/
 .categories-on-shop-page {
+  display: -ms-flexbox;
+  display: flex;
   text-align: center;
-  height: 1px; }
+  height: 50px; }
 
 .all-products {
   display: -ms-flexbox;
