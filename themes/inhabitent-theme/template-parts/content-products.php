@@ -11,7 +11,7 @@
 	<header class="entry-header">
 	<div class ="one-product"	>
 		<?php if ( has_post_thumbnail() ) : ?>
-			<?php the_post_thumbnail( 'large' ); ?>
+			<a href = '<?php the_permalink();?>'> <?php the_post_thumbnail( 'large' ); ?> </a>
 		<?php endif; ?>
 		<div class = "title-and-price">
 			<?php the_title( sprintf( '<p class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></p>' ); ?>
@@ -29,3 +29,4 @@
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-content -->
 </article><!-- #post-## -->
+

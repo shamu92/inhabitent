@@ -6,42 +6,23 @@
 }
 
 .type-post {
-    width: 75%;
+    width: 73%;
     p {
-        width: 820px;
+        width: 740px;
     }
 }
 
 .type-post .entry-content {
-    width: 820px;
-}
-
-.side-bar {
-    width: 300px;
-    /*height: 100%;*/
-    border-left: 1px solid #e1e1e1;
-    padding: 2rem 3rem;
-    padding-right: 0;
-    font-size: 1.2rem;
-    padding-top: 3rem;
-    h3 {
-        font-size: 1.5rem;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-    }
-    a {
-        text-decoration: none;
-        color: $company-green;
-    }
+    width: 740px;
 }
 
 .type-post .entry-header {
     position: relative;
-    width: 820px;
+    width: 740px;
     margin: 4rem;
     margin-left: 0;
     img {
-        width: 1000px;
+        width: 740px;
         height: auto;
     }
 }
@@ -52,11 +33,11 @@
     left: 0;
     background: $company-green;
     padding: 1rem 2rem;
-    max-width: 75%;
+    max-width: 73%;
     text-transform: uppercase;
     a {
         text-decoration: none;
-        width: 75%;
+        width: 73%;
         font-size: 2.5rem;
         color: white;
         &:visited {
