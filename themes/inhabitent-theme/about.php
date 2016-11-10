@@ -7,7 +7,7 @@
 	<h2><?php echo CFS()->get( 'our_story' );?></h2>
 	<p><?php echo CFS()->get( 'content_of_our_story' );?></p>
 	<h2><?php echo CFS()->get( 'our_team' );?></h2>
-	<p><?php echo CFS()->get( 'content_of_our_story' );?></p>
+	<p><?php echo CFS()->get( 'content_of_our_team' );?></p>
 	
 </section>
 <?php get_footer(); ?>

@@ -637,6 +637,15 @@ big {
   width: 1120px;
   margin: 0 auto; }
 
+.find-us-paragraph {
+  width: 760px; }
+
+.wpcf7-textarea {
+  width: 760px; }
+
+.wpcf7-submit {
+  background-color: #248A83; }
+
 .widget-area {
   width: 300px;
   border-left: 1px solid #e1e1e1;
