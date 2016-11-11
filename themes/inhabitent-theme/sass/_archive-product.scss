@@ -1,12 +1,19 @@
-/*.product-area {
-    height: 1425px;
-    width: 1120px;
+/*************************************************************************************************************
+*************************************Archive products styling page********************************************/
+
+.page-title {
+    padding-right: 2.2rem;
+    font-size: 2.7rem;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .product-types {
-    flex-wrap: wrap;
+    display: flex;
     justify-content: center;
-    height: 250px;
+    height: 50px;
+    width: 1120px;
+    margin: 2rem auto;
     padding-bottom: 4rem;
     border-bottom: 1px dashed #e1e1e1;
     a {
@@ -17,18 +24,6 @@
         font-size: 1.5rem;
     }
 }
-
-.page-title {
-    width: 1120px;
-    padding-right: 2.2rem;
-    padding-bottom: 3rem;
-    font-size: 2.7rem;
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 6rem;
-    height: 1;
-}*/
-
 
 /*****************************************fix this ****************************************************************
 ************************************************************************

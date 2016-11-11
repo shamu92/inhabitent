@@ -312,7 +312,6 @@ big {
 .content-area {
   display: -ms-flexbox;
   display: flex;
-  padding-top: 50px;
   width: 1120px;
   margin: 0 auto; }
 
@@ -420,6 +419,9 @@ big {
   background: url(../../images/logos/inhabitent-logo-full.svg) center no-repeat, linear-gradient(rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), url(../../images/home-hero.jpg);
   height: 100vh;
   background-size: 50% 50%, cover, cover; }
+
+.site-content {
+  padding-top: 50px; }
 
 /*********Product categories styling*************************/
 .product-types-on-front-page {
@@ -892,36 +894,31 @@ a {
   text-align: right;
   width: 50%; }
 
-/*.product-area {
-    height: 1425px;
-    width: 1120px;
-}
+/*************************************************************************************************************
+*************************************Archive products styling page********************************************/
+.page-title {
+  padding-right: 2.2rem;
+  font-size: 2.7rem;
+  text-align: center;
+  text-transform: uppercase; }
 
 .product-types {
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 250px;
-    padding-bottom: 4rem;
-    border-bottom: 1px dashed #e1e1e1;
-    a {
-        padding-right: 2.2rem;
-        text-transform: uppercase;
-        text-decoration: none;
-        color: $company-green;
-        font-size: 1.5rem;
-    }
-}
-
-.page-title {
-    width: 1120px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  height: 50px;
+  width: 1120px;
+  margin: 2rem auto;
+  padding-bottom: 4rem;
+  border-bottom: 1px dashed #e1e1e1; }
+  .product-types a {
     padding-right: 2.2rem;
-    padding-bottom: 3rem;
-    font-size: 2.7rem;
-    text-align: center;
     text-transform: uppercase;
-    margin-top: 6rem;
-    height: 1;
-}*/
+    text-decoration: none;
+    color: #248A83;
+    font-size: 1.5rem; }
+
 /*****************************************fix this ****************************************************************
 ************************************************************************
 ***********************************************************************************/

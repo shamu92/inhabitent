@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 	
+<header class="page-header">
+<?php the_archive_title( '<h1 class="page-title">', '</h1>' );?>
+</header><!-- .page-header -->
+
 <section class = "product-types">
-	<header class="page-header">
-			<?php the_archive_title( '<h1 class="page-title">', '</h1>' );?>
-	</header><!-- .page-header -->
-    	
 		<?php
     	$terms = get_terms('product_type');
     
