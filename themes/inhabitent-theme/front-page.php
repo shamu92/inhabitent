@@ -52,7 +52,7 @@ get_header(); ?>
     ?>
     <?php foreach ( $posts as $post ) : setup_postdata( $post ); ?>
     <div class = "home-page-journal-entry">
-        <?php the_post_thumbnail(["365px, 250px"]); ?>
+        <?php the_post_thumbnail(); ?>
         <div class = "home-page-journal-info">
             <?php the_date(); ?> /
             <?php comments_number(); ?>
