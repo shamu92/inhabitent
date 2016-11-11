@@ -29,7 +29,7 @@
     height: 300px;
     padding: 1rem;
     text-align: center;
-    border: 1px solid #e1e1e1;
+    border: $standard-border;
     border-top-width: 5px;
     font-size: 1.1rem;
     &:hover {
@@ -47,6 +47,9 @@
         &:hover {
             color: white;
         }
+        &:visited {
+            color: white;
+        }
     }
     .category-link-button {
         width: 140px;
@@ -60,34 +63,55 @@
 }
 
 
-/*********INhabitent Journal Styling*************************/
+/*********Inhabitent Journal Styling*************************/
 
 .recent-posts {
     display: flex;
     justify-content: space-between;
     width: 1120px;
     margin: 0 auto;
-    height: 700px;
+    height: 540px;
 }
 
 .home-page-journal-entry {
     display: flex;
     flex-flow: column;
     width: 365px;
-    height: 600px;
-    text-align: center;
+    height: 500px;
     background: #e1e1e1;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    border: $standard-border;
     img {
         height: 250px;
     }
     .home-page-journal-info {
         background: white;
+        margin-top: 5px;
+        padding: 1rem;
+        height: 245px;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        a {
+            text-decoration: none;
+            color: $company-green;
+        }
+        a:hover {
+            color: black;
+        }
         .journal-link-button {
             width: 140px;
-            margin: 0 auto;
-            padding: .8rem 0;
-            background: $company-green;
+            padding: .6rem .5rem;
+            border: $standard-border;
+            border-color: black;
+            text-align: center;
+            text-transform: uppercase;
+            color: black;
+            &:hover {
+                background: $company-green;
+                border-color: $company-green;
+                color: white;
+            }
         }
     }
 }
@@ -111,6 +135,9 @@
             color: #f0e4d1
         }
     }
+    p a:hover {
+        color: white;
+    }
 }
 
 .latest-adventures {
@@ -121,9 +148,6 @@
     font-size: 3rem;
     text-transform: uppercase;
     text-align: center;
-    p:hover {
-        color: white;
-    }
 }
 
 // Fix width. Not matching up with the example site.
@@ -196,7 +220,9 @@
     &:hover {
         background-color: $company-green;
         border: 1px solid $company-green;
-        color: white;
+        a:hover {
+            color: white;
+        }
     }
 }
 
@@ -210,6 +236,9 @@
     background-color: $company-green;
     &:hover {
         background: darken($company-green, 10%);
+        color: white;
+    }
+    &:visited {
         color: white;
     }
 }

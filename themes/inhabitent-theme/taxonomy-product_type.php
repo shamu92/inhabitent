@@ -1,19 +1,16 @@
 <?php get_header(); ?>
 	
 <section class = "product-types">
-	<header class="page-header">
-			<?php the_archive_title( '<h1 class="page-title">', '</h1>' );?>
-	</header><!-- .page-header -->
     	
 		<?php
     	$terms = get_terms('product_type');
     
 		foreach ($terms as $term):
     	?>
-    	<div class="categories-on-shop-page">
+    	<!--<div class="categories-on-shop-page">
         	<?php $url = get_term_link ($term->slug , 'product_type'); ?>
        		<a href="<?php echo $url ?>"> <?php echo $term->name; ?> </a>
-    	</div>
+    	</div>-->
 
 <?php endforeach; ?>
 	</div>
@@ -27,12 +24,11 @@
 
 			<header class="page-header">
 				<?php
-					
+					 the_archive_title( '<h1 class="page-title">', '</h1>') ;
 					the_archive_description( '<div class="taxonomy-description">', '</div>' );
 				?>
 			</header><!-- .page-header -->
     <section class= "all-products">
-
 
 
 			<?php /* Start the Loop */ ?>

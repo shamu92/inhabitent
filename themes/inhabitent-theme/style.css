@@ -457,6 +457,8 @@ big {
     text-transform: uppercase; }
     .product-type-on-front-page a:hover {
       color: white; }
+    .product-type-on-front-page a:visited {
+      color: white; }
   .product-type-on-front-page .category-link-button {
     width: 140px;
     margin: 0 auto;
@@ -465,7 +467,7 @@ big {
     .product-type-on-front-page .category-link-button:hover {
       background: #19625d; }
 
-/*********INhabitent Journal Styling*************************/
+/*********Inhabitent Journal Styling*************************/
 .recent-posts {
   display: -ms-flexbox;
   display: flex;
@@ -473,7 +475,7 @@ big {
       justify-content: space-between;
   width: 1120px;
   margin: 0 auto;
-  height: 700px; }
+  height: 540px; }
 
 .home-page-journal-entry {
   display: -ms-flexbox;
@@ -481,19 +483,40 @@ big {
   -ms-flex-flow: column;
       flex-flow: column;
   width: 365px;
-  height: 600px;
-  text-align: center;
+  height: 500px;
   background: #e1e1e1;
-  font-size: 1.1rem; }
+  font-size: 1rem;
+  border: 1px solid #e1e1e1; }
   .home-page-journal-entry img {
     height: 250px; }
   .home-page-journal-entry .home-page-journal-info {
-    background: white; }
+    background: white;
+    margin-top: 5px;
+    padding: 1rem;
+    height: 245px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: column;
+        flex-flow: column;
+    -ms-flex-pack: justify;
+        justify-content: space-between; }
+    .home-page-journal-entry .home-page-journal-info a {
+      text-decoration: none;
+      color: #248A83; }
+    .home-page-journal-entry .home-page-journal-info a:hover {
+      color: black; }
     .home-page-journal-entry .home-page-journal-info .journal-link-button {
       width: 140px;
-      margin: 0 auto;
-      padding: .8rem 0;
-      background: #248A83; }
+      padding: .6rem .5rem;
+      border: 1px solid #e1e1e1;
+      border-color: black;
+      text-align: center;
+      text-transform: uppercase;
+      color: black; }
+      .home-page-journal-entry .home-page-journal-info .journal-link-button:hover {
+        background: #248A83;
+        border-color: #248A83;
+        color: white; }
 
 /*********Adventures categories styling*************************/
 .adventures {
@@ -510,6 +533,8 @@ big {
       color: white; }
     .adventures a:hover {
       color: #f0e4d1; }
+  .adventures p a:hover {
+    color: white; }
 
 .latest-adventures {
   line-height: 1; }
@@ -518,8 +543,6 @@ big {
   font-size: 3rem;
   text-transform: uppercase;
   text-align: center; }
-  .front-page-h2 p:hover {
-    color: white; }
 
 .box-1 {
   height: 100%;
@@ -585,8 +608,9 @@ big {
   text-transform: uppercase; }
   .read-more-button:hover {
     background-color: #248A83;
-    border: 1px solid #248A83;
-    color: white; }
+    border: 1px solid #248A83; }
+    .read-more-button:hover a:hover {
+      color: white; }
 
 .more-adventures-button {
   margin-left: 140px;
@@ -598,6 +622,8 @@ big {
   background-color: #248A83; }
   .more-adventures-button:hover {
     background: #19625d;
+    color: white; }
+  .more-adventures-button:visited {
     color: white; }
 
 .entry-header h1 {

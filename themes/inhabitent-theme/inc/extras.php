@@ -67,9 +67,10 @@ add_action( 'pre_get_posts', 'get_product_posts');
 
 function archive_product_title( $title ) {
 
+    if(is_post_type_archive('product')) {
 
         $title = 'Shop Stuff';
-
+    }
 
     return $title;
 }
