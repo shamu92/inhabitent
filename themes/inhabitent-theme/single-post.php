@@ -31,9 +31,9 @@ get_header(); ?>
 
 
  <div class= "social-buttons">
-	<a class = "like-button" href ="#"><i class="fa fa-facebook" aria-hidden="true">  Like</i></a>
-    <a class = "twitter-button" href ="#"><i class="fa fa-twitter" aria-hidden="true">  Tweet</i></a>
-	<a class = "pinterest-button" href ="#"><i class="fa fa-pinterest" aria-hidden="true">  Pin</i></a>
+	<i class="fa fa-facebook" aria-hidden="true"></i><a class = "like-button" href ="#"> Like</a>
+    <i class="fa fa-twitter" aria-hidden="true"></i><a class = "twitter-button" href ="#"> Tweet</a>
+	<i class="fa fa-pinterest" aria-hidden="true"><a class = "pinterest-button" href ="#"></i>  Pin</a>
 </div>
 		</main><!-- #main -->
         <?php get_sidebar(); ?>

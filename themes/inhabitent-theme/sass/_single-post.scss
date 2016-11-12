@@ -18,6 +18,9 @@
     padding: .6rem 1.3rem;
     margin-top: 4%;
     text-transform: uppercase;
+    a {
+        font-family: 'novocento';
+    }
     &:visited {
         color: black;
     }
@@ -28,7 +31,51 @@
     }
 }
 
+.social-buttons a {
+    font-family: 'merriweather';
+}
+
 .nav-previous,
 .nav-next {
     display: none;
+}
+
+.comment-reply-link,
+.logged-in-as a {
+    color: $company-green;
+    text-decoration: none;
+}
+
+.comment-reply-title {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    a {
+        text-decoration: none;
+        color: $company-green;
+        font-family: 'merriweather';
+    }
+}
+
+.comment-form-comment label {
+    text-transform: uppercase;
+    font-family: 'novocento';
+}
+
+.comment-metadata {
+    color: grey;
+    a {
+        text-decoration: none;
+        color: $company-green;
+        &:hover {
+            color: black;
+        }
+        &:visited {
+            color: $company-green;
+        }
+    }
+}
+
+.vcard .fn {
+    font-weight: bold;
 }

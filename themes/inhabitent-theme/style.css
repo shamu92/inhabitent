@@ -700,6 +700,10 @@ h3 a {
   padding: .6rem 1.3rem;
   margin-top: 4%;
   text-transform: uppercase; }
+  .like-button a,
+  .twitter-button a,
+  .pinterest-button a {
+    font-family: 'novocento'; }
   .like-button:visited,
   .twitter-button:visited,
   .pinterest-button:visited {
@@ -711,9 +715,43 @@ h3 a {
     border: 1px solid #248A83;
     color: white; }
 
+.social-buttons a {
+  font-family: 'merriweather'; }
+
 .nav-previous,
 .nav-next {
   display: none; }
+
+.comment-reply-link,
+.logged-in-as a {
+  color: #248A83;
+  text-decoration: none; }
+
+.comment-reply-title {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  letter-spacing: 2px; }
+  .comment-reply-title a {
+    text-decoration: none;
+    color: #248A83;
+    font-family: 'merriweather'; }
+
+.comment-form-comment label {
+  text-transform: uppercase;
+  font-family: 'novocento'; }
+
+.comment-metadata {
+  color: grey; }
+  .comment-metadata a {
+    text-decoration: none;
+    color: #248A83; }
+    .comment-metadata a:hover {
+      color: black; }
+    .comment-metadata a:visited {
+      color: #248A83; }
+
+.vcard .fn {
+  font-weight: bold; }
 
 .page-id-134 .site-content {
   display: -ms-flexbox;
