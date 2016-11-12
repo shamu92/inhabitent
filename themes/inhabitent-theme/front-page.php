@@ -74,23 +74,23 @@ get_header(); ?>
 
     <section class= "adventures">
         <div class="box-1">
-            <a class = "adventure-link" href ="#">Getting Back to Nature in a Canoe</a>
+            <h3><a class = "adventure-link" href ="#">Getting Back to Nature in a Canoe</a></h3>
             <p><a class = "read-more-button" href ="#">Read More</a></p>
         </div>
         <div class="right-box">
             <div class="box-2">
-                <a class = "adventure-link" href ="#">A night with Friends at the Beach</a><br>
+                <h3><a class = "adventure-link" href ="#">A night with Friends at the Beach</a></h3><br>
                 <p><a class = "read-more-button" href ="#">Read More</a></p>
 
             </div>
             <div class = "bottom-right-box">  
                 <div class="box-3">
-                    <a class = "adventure-link" href ="#">Taking in the View at Big Mountain</a>
+                    <h3><a class = "adventure-link" href ="#">Taking in the View at Big Mountain</a></h3>
                     <p><a class = "read-more-button" href ="#">Read More</a></p>
 
                 </div>
                 <div class="box-4">
-                    <a class = "adventure-link" href ="#">Star-Gazing at the Night Sky</a>
+                    <h3><a class = "adventure-link" href ="#">Star-Gazing at the Night Sky</a></h3>
                     <p><a class = "read-more-button" href ="#">Read More</a></p>
 
                 </div>

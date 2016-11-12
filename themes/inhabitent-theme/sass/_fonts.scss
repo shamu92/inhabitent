@@ -28,7 +28,7 @@
     url('../fonts/merriweather-bolditalic-webfont.woff') format('woff'), 
     url('../fonts/merriweather-bolditalic-webfont.ttf') format('truetype'), 
     url('../fonts/merriweather-bolditalic-webfont.svg#merriweatherbold_italic') format('svg');
-    font-weight: 700;
+    font-weight: bold;
     font-style: italic;
 }
 
@@ -67,7 +67,7 @@
     url('../novecentosanswide-demibold-webfont.woff') format('woff'),
     url('../fonts/novecentosanswide-demibold-webfont.ttf') format('truetype'), 
     url('../fonts/novecentosanswide-demibold-webfont.svg#merriweatherbold') format('svg');
-    font-weight: 700;
+    font-weight: bold;
     font-style: normal;
 }
 
@@ -94,6 +94,10 @@ body {
     /*max-width: 1120px;*/
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, a {
     font-family:'novocento';
+}
+
+h3 a {
+    font-family:'merriweather';
 }

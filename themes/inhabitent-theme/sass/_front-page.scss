@@ -26,7 +26,7 @@
     display: flex;
     flex-flow: column;
     width: 270px;
-    height: 300px;
+    height: 330px;
     padding: 1rem;
     text-align: center;
     border: $standard-border;
@@ -54,7 +54,7 @@
     .category-link-button {
         width: 140px;
         margin: 0 auto;
-        padding: .8rem 0;
+        padding: .5rem 0;
         background: $company-green;
         &:hover {
             background: darken($company-green, 10%);
@@ -125,6 +125,9 @@
     margin: 0 auto;
     width: 1120px;
     margin-bottom: 20px;
+    h3 {
+        font-weight: normal;
+    }
     a {
         text-decoration: none;
         color: white;
@@ -141,7 +144,7 @@
 }
 
 .latest-adventures {
-    line-height: 1;
+    line-height: 1.2;
 }
 
 .front-page-h2 {
@@ -154,11 +157,11 @@
 .box-1 {
     height: 100%;
     width: 50%;
-    padding: 4rem 2rem;
+    padding: 1.6rem 2rem;
     background: linear-gradient(rgba(0, 0, 0, .4) 0, rgba(0, 0, 0, .4)), url(../../images/adventure-photos/canoe-girl.jpg) center;
     background-size: cover, cover;
     border-right: solid 10px white;
-    font-size: 3.6rem;
+    font-size: 2.8rem;
 }
 
 .right-box {
@@ -177,35 +180,38 @@
 .box-2 {
     height: 50%;
     width: 100%;
-    padding: 4rem 2rem;
+    padding: 1.6rem 2rem;
     background: linear-gradient(rgba(0, 0, 0, .4) 0, rgba(0, 0, 0, .4)), url(../../images/adventure-photos/beach-bonfire.jpg) center;
     background-size: cover, cover;
     border-left: solid 10px white;
     border-bottom: solid 10px white;
-    font-size: 3rem;
+    font-size: 2rem;
+    p {
+        margin: 0;
+    }
 }
 
 .box-3 {
     height: 100%;
     width: 50%;
-    padding: 4rem 2rem;
+    padding: 1.6rem 2rem;
     background: linear-gradient(rgba(0, 0, 0, .4) 0, rgba(0, 0, 0, .4)), url(../../images/adventure-photos/mountain-hikers.jpg) center;
     background-size: cover, cover;
     border-top: solid 10px white;
     border-left: solid 10px white;
     border-right: solid 10px white;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
 }
 
 .box-4 {
     height: 100%;
     width: 50%;
-    padding: 4rem 2rem;
+    padding: 1.6rem 2rem;
     background: linear-gradient(rgba(0, 0, 0, .1) 0, rgba(0, 0, 0, .1)), url(../../images/adventure-photos/night-sky.jpg) center;
     background-size: cover, cover;
     border-left: solid 10px white;
     border-top: solid 10px white;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
 }
 
 .read-more {
