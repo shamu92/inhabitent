@@ -1,0 +1,32 @@
+.single-product-content {
+    display: flex;
+    width: 1120px;
+    margin: 3rem auto;
+    height: 700 px;
+    padding-bottom: 6rem;
+}
+
+.single-product .size-large {
+    max-width: 47%;
+    margin-right: 3rem;
+    margin-bottom: 6rem;
+}
+
+.single-product article {
+    max-width: 53%;
+}
+
+.single-product h1 {
+    color: #d99054;
+    line-height: 1;
+    font-size: 2.5rem;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.single-page-price {
+    font-family: 'novocento';
+    font-size: 1.8rem;
+    line-height: 1;
+}
