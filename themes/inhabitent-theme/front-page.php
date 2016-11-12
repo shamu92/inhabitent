@@ -54,8 +54,8 @@ get_header(); ?>
     <div class = "home-page-journal-entry">
         <?php the_post_thumbnail(); ?>
         <div class = "home-page-journal-info">
-            <?php the_date(); ?> /
-            <?php comments_number(); ?>
+           <p> <?php the_date(); ?> /
+            <?php comments_number(); ?></p>
               <h2><a href="<?php echo the_permalink();?>" <h2><?php the_title();?></h2></a></h2>
               <a class = "journal-link-button" href="<?php echo the_permalink();?>">Read Entry</a>
         </div>

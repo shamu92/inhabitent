@@ -19,19 +19,19 @@
     justify-content: space-between;
     width: 1120px;
     margin: 0 auto;
-    height: 350px;
+    height: 300px;
 }
 
 .product-type-on-front-page {
     display: flex;
     flex-flow: column;
     width: 270px;
-    height: 330px;
+    height: 270px;
     padding: 1rem;
     text-align: center;
     border: $standard-border;
     border-top-width: 5px;
-    font-size: 1.1rem;
+    font-size: .9rem;
     &:hover {
         border: 1px solid #d99054;
         border-top-width: 5px;
@@ -77,12 +77,12 @@
     display: flex;
     flex-flow: column;
     width: 365px;
-    height: 500px;
+    height: 420px;
     background: #e1e1e1;
     font-size: 1rem;
     border: $standard-border;
     img {
-        height: 250px;
+        height: 240px;
     }
     .home-page-journal-info {
         background: white;
@@ -92,6 +92,18 @@
         display: flex;
         flex-flow: column;
         justify-content: space-between;
+        p {
+            line-height: 1;
+            font-size: .7rem;
+            margin: 0;
+        }
+        h2 {
+            font-weight: bold;
+            line-height: 1.1;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 1.3rem;
+        }
         a {
             text-decoration: none;
             color: $company-green;
@@ -101,7 +113,7 @@
         }
         .journal-link-button {
             width: 140px;
-            padding: .6rem .5rem;
+            padding: .3rem .6rem;
             border: $standard-border;
             border-color: black;
             text-align: center;
@@ -124,7 +136,7 @@
     height: 600px;
     margin: 0 auto;
     width: 1120px;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     h3 {
         font-weight: normal;
     }
@@ -145,10 +157,13 @@
 
 .latest-adventures {
     line-height: 1.2;
+    width: 1120px;
+    margin: 0 auto;
+    margin-bottom: 5rem;
 }
 
 .front-page-h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-transform: uppercase;
     text-align: center;
 }
@@ -233,7 +248,7 @@
 }
 
 .more-adventures-button {
-    margin-left: 140px;
+    margin-top: 1rem;
     font-size: 1rem;
     padding: .8rem 1.2rem;
     text-transform: uppercase;

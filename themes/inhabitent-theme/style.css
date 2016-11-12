@@ -336,6 +336,9 @@ body {
 h1, h2, h3, h4, h5, h6, a {
   font-family: 'novocento'; }
 
+h2 {
+  font-weight: normal; }
+
 h3 a {
   font-family: 'merriweather'; }
 
@@ -461,7 +464,7 @@ h3 a {
       justify-content: space-between;
   width: 1120px;
   margin: 0 auto;
-  height: 350px; }
+  height: 300px; }
 
 .product-type-on-front-page {
   display: -ms-flexbox;
@@ -469,12 +472,12 @@ h3 a {
   -ms-flex-flow: column;
       flex-flow: column;
   width: 270px;
-  height: 330px;
+  height: 270px;
   padding: 1rem;
   text-align: center;
   border: 1px solid #e1e1e1;
   border-top-width: 5px;
-  font-size: 1.1rem; }
+  font-size: .9rem; }
   .product-type-on-front-page:hover {
     border: 1px solid #d99054;
     border-top-width: 5px; }
@@ -513,12 +516,12 @@ h3 a {
   -ms-flex-flow: column;
       flex-flow: column;
   width: 365px;
-  height: 500px;
+  height: 420px;
   background: #e1e1e1;
   font-size: 1rem;
   border: 1px solid #e1e1e1; }
   .home-page-journal-entry img {
-    height: 250px; }
+    height: 240px; }
   .home-page-journal-entry .home-page-journal-info {
     background: white;
     margin-top: 5px;
@@ -530,6 +533,16 @@ h3 a {
         flex-flow: column;
     -ms-flex-pack: justify;
         justify-content: space-between; }
+    .home-page-journal-entry .home-page-journal-info p {
+      line-height: 1;
+      font-size: .7rem;
+      margin: 0; }
+    .home-page-journal-entry .home-page-journal-info h2 {
+      font-weight: bold;
+      line-height: 1.1;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 1.3rem; }
     .home-page-journal-entry .home-page-journal-info a {
       text-decoration: none;
       color: #248A83; }
@@ -537,7 +550,7 @@ h3 a {
       color: black; }
     .home-page-journal-entry .home-page-journal-info .journal-link-button {
       width: 140px;
-      padding: .6rem .5rem;
+      padding: .3rem .6rem;
       border: 1px solid #e1e1e1;
       border-color: black;
       text-align: center;
@@ -555,7 +568,7 @@ h3 a {
   height: 600px;
   margin: 0 auto;
   width: 1120px;
-  margin-bottom: 20px; }
+  margin-bottom: 2rem; }
   .adventures h3 {
     font-weight: normal; }
   .adventures a {
@@ -569,10 +582,13 @@ h3 a {
     color: white; }
 
 .latest-adventures {
-  line-height: 1.2; }
+  line-height: 1.2;
+  width: 1120px;
+  margin: 0 auto;
+  margin-bottom: 5rem; }
 
 .front-page-h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
   text-align: center; }
 
@@ -647,7 +663,7 @@ h3 a {
       color: white; }
 
 .more-adventures-button {
-  margin-left: 140px;
+  margin-top: 1rem;
   font-size: 1rem;
   padding: .8rem 1.2rem;
   text-transform: uppercase;
