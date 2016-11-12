@@ -1,21 +1,4 @@
 <?php get_header(); ?>
-	
-<section class = "product-types">
-    	
-		<?php
-    	$terms = get_terms('product_type');
-    
-		foreach ($terms as $term):
-    	?>
-    	<!--<div class="categories-on-shop-page">
-        	<?php $url = get_term_link ($term->slug , 'product_type'); ?>
-       		<a href="<?php echo $url ?>"> <?php echo $term->name; ?> </a>
-    	</div>-->
-
-<?php endforeach; ?>
-	</div>
-</section>
-
 
 <div id="primary" class="content-area product-area">
 

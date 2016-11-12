@@ -71,6 +71,9 @@ function archive_product_title( $title ) {
 
         $title = 'Shop Stuff';
     }
+    elseif ( is_tax() ) {
+       $title = single_term_title( '', false );
+   }
 
     return $title;
 }

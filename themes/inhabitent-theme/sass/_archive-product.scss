@@ -3,9 +3,11 @@
 
 .page-title {
     padding-right: 2.2rem;
-    font-size: 2.7rem;
+    font-size: 2.3rem;
     text-align: center;
     text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 1px;
 }
 
 .product-types {
@@ -25,6 +27,7 @@
     }
 }
 
+
 /*****************************************fix this ****************************************************************
 ************************************************************************
 ***********************************************************************************/
@@ -40,6 +43,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     width: 1120px;
+    margin-bottom: 5rem;
     img {
         height: 200px;
         width: 260px;
@@ -58,11 +62,12 @@
 .type-product .title-and-price {
     display: flex;
     justify-content: space-around;
+    padding: 0 1rem;
     width: 260px;
     background: white;
     border: 1px solid #e1e1e1;
     border-top: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     p {
         background-color: white;
         z-index: 0;
@@ -70,13 +75,12 @@
     a {
         color: black;
         text-decoration: none;
+        font-family: 'merriweather';
     }
     .entry-title:after {
-        width: 0;
         white-space: nowrap;
-        content: "............";
+        content: "...............";
         position: absolute;
-        float: right;
         z-index: -1;
     }
 }
