@@ -2,14 +2,54 @@
     display: flex;
     width: 1120px;
     margin: 0 auto;
+    h1 {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    .find-us-sub-titles {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 2.3rem;
+        letter-spacing: 2px;
+    }
 }
 
 .find-us-paragraph {
     width: 760px;
 }
 
+.find-us-sub-title {
+    text-transform: uppercase;
+}
+
+.wpcf7-form {
+    input[type=email],
+    input[type=password],
+    input[type=search],
+    input[type=text],
+    input[type=url] {
+        border-radius: 0;
+        padding: 6px;
+    }
+    label {
+        text-transform: uppercase;
+        font-family: 'novocento';
+    }
+}
+
+.form-star {
+    color: #d99054
+}
+
+.wpcf7-text {
+    background: #f4f4f4;
+    padding: 5rem;
+}
+
 .wpcf7-textarea {
     width: 760px;
+    background: #f4f4f4;
+    border-radius: 0;
 }
 
 .wpcf7-submit {
