@@ -22,8 +22,6 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<?php get_template_part( 'template-parts/content' ); ?>
-
-					<p><a class = "read-more-article" href ="#">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
 		
 			<?php endwhile; ?>
 
