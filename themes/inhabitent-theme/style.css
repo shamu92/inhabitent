@@ -750,7 +750,8 @@ h3 a {
   .comment-list img {
     float: left;
     margin-right: 1rem;
-    border-radius: 50%; }
+    border-radius: 50%;
+    margin-top: 2rem; }
 
 ul li {
   list-style: none; }
@@ -759,7 +760,8 @@ ul li {
 .logged-in-as a {
   color: #248A83;
   text-decoration: none;
-  font-family: 'merriweather'; }
+  font-family: 'merriweather';
+  padding-left: 5rem; }
   .comment-reply-link:visited,
   .logged-in-as a:visited {
     color: #248A83; }
@@ -794,9 +796,14 @@ ul li {
     .comment-metadata a:visited {
       color: #248A83; }
 
-.vcard .fn {
-  font-weight: bold;
-  font-style: normal; }
+.vcard {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  margin-right: 3rem;
+  border-top: 1px solid #e1e1e1; }
+  .vcard .fn {
+    font-weight: bold;
+    font-style: normal; }
 
 input[type=email],
 input[type=password],
