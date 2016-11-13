@@ -16,15 +16,15 @@
 					<div class = "contact">
 						<h3>Contact Info</h3>
 						<p>
-							<i class="fa fa-envelope" aria-hidden="true"></i><a href="info@inhabitent.com"> info@inhabitent.com</a>
+							<i class="fa fa-envelope fa-lg" aria-hidden="true"></i><a href="info@inhabitent.com"> info@inhabitent.com</a>
 						</p>
 						<p>
-							<i class="fa fa-phone" aria-hidden="true"></i><a href="tel:778-456-7891"> 778-456-7891</a>
+							<i class="fa fa-phone fa-lg" aria-hidden="true"></i><a href="tel:778-456-7891"> 778-456-7891</a>
 						</p>
 						<p>
-							<i class="fa fa-facebook-square" aria-hidden="true"></i>
-							<i class="fa fa-twitter-square" aria-hidden="true"></i>
-							<i class="fa fa-google-plus-square" aria-hidden="true"></i>
+							<i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
+							<i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i>
+							<i class="fa fa-google-plus-square fa-lg" aria-hidden="true"></i>
 						</p>
 					</div>
 					<div class = "business-hours">

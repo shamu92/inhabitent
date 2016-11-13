@@ -752,6 +752,9 @@ h3 a {
 .logged-in-as a {
   color: #248A83;
   text-decoration: none; }
+  .comment-reply-link:visited,
+  .logged-in-as a:visited {
+    color: #248A83; }
 
 .comments-title {
   font-weight: bold;
@@ -1509,7 +1512,8 @@ object {
       flex-basis: 25%; }
   .contact a {
     text-decoration: none;
-    color: white; }
+    color: white;
+    font-family: 'merriweather'; }
   .contact a:hover {
     text-decoration: underline; }
 
