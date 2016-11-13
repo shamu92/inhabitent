@@ -85,6 +85,7 @@ fieldset {
 #btn-search {
     color: $company-green;
     background: none;
+    padding: 0;
     padding-left: .5rem;
     font-size: 1rem;
     &:focus {

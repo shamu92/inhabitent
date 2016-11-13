@@ -1,3 +1,5 @@
+/**********Header Styling (search bar and navigation in different file*********/
+
 .header-background {
     display: flex;
     background: rgba(255, 255, 255, 0.8);
@@ -10,13 +12,14 @@
 .header {
     display: flex;
     height: 50px;
+    padding: .5rem 0;
     width: 1120px;
     justify-content: space-between;
     margin: 0 auto;
 }
 
 .logo-top {
-    height: 55px;
+    height: 50px;
     width: auto;
     padding-bottom: 15px;
 }
