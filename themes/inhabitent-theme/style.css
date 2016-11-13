@@ -749,7 +749,8 @@ h3 a {
   list-style: none; }
   .comment-list img {
     float: left;
-    padding-right: 1rem; }
+    margin-right: 1rem;
+    border-radius: 50%; }
 
 ul li {
   list-style: none; }
@@ -827,6 +828,9 @@ textarea {
       flex-flow: column;
   float: left;
   font-style: none; }
+
+article .comment-content p {
+  padding-left: 5rem; }
 
 .comment-form-email {
   display: -ms-flexbox;

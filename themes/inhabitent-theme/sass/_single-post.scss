@@ -40,7 +40,8 @@
     list-style: none;
     img {
         float: left;
-        padding-right: 1rem;
+        margin-right: 1rem;
+        border-radius: 50%;
     }
 }
 
@@ -136,6 +137,10 @@ textarea {
     flex-flow: column;
     float: left;
     font-style: none;
+}
+
+article .comment-content p {
+    padding-left: 5rem;
 }
 
 .comment-form-email {
