@@ -52,3 +52,19 @@
         display: none;
     }
 }
+
+.search-pagination {
+    margin-bottom: 3rem;
+    a {
+        text-decoration: none;
+        color: white;
+        padding: .4rem .7rem;
+        background: $company-green;
+        text-transform: uppercase;
+    }
+    .current {
+        color: white;
+        padding: .3rem .5rem;
+        background: grey;
+    }
+}

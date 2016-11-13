@@ -1500,6 +1500,19 @@ object {
 .not-found .search-submit {
   display: none; }
 
+.search-pagination {
+  margin-bottom: 3rem; }
+  .search-pagination a {
+    text-decoration: none;
+    color: white;
+    padding: .4rem .7rem;
+    background: #248A83;
+    text-transform: uppercase; }
+  .search-pagination .current {
+    color: white;
+    padding: .3rem .5rem;
+    background: grey; }
+
 .site-footer {
   background: url(../../images/dark-wood@2x.png);
   padding-top: 4%;
