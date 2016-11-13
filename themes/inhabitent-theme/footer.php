@@ -21,7 +21,7 @@
 						<p>
 							<i class="fa fa-phone fa-lg" aria-hidden="true"></i><a href="tel:778-456-7891"> 778-456-7891</a>
 						</p>
-						<p>
+						<p class="social-icons">
 							<i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
 							<i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i>
 							<i class="fa fa-google-plus-square fa-lg" aria-hidden="true"></i>
