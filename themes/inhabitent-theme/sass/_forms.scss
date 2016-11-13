@@ -37,7 +37,7 @@ input[type="search"],
 textarea {
     color: #666;
     border: 1px solid #ccc;
-    border-radius: 3px;
+    border-radius: 0px;
     &:focus {
         color: #111;
     }
@@ -48,10 +48,14 @@ input[type="email"],
 input[type="url"],
 input[type="password"],
 input[type="search"] {
-    padding: 3px;
+    padding: 6px;
+}
+
+input[type="url"] {
+    width: 770px;
 }
 
 textarea {
     padding-left: 3px;
-    width: 100%;
+    width:770px;
 }

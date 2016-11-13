@@ -29,12 +29,6 @@ get_header(); ?>
 
 		<?php endwhile; // End of the loop. ?>
 
-
- <div class= "social-buttons">
-	<i class="fa fa-facebook" aria-hidden="true"></i><a class = "like-button" href ="#"> Like</a>
-    <i class="fa fa-twitter" aria-hidden="true"></i><a class = "twitter-button" href ="#"> Tweet</a>
-	<i class="fa fa-pinterest" aria-hidden="true"><a class = "pinterest-button" href ="#"></i>  Pin</a>
-</div>
 		</main><!-- #main -->
         <?php get_sidebar(); ?>
 	</div><!-- #primary -->

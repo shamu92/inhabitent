@@ -727,6 +727,13 @@ h3 a {
   color: #248A83;
   text-decoration: none; }
 
+.comments-title {
+  font-weight: bold;
+  font-size: 2rem;
+  color: black;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
 .comment-reply-title {
   text-transform: uppercase;
   font-size: 1.8rem;
@@ -734,7 +741,7 @@ h3 a {
   .comment-reply-title a {
     text-decoration: none;
     color: #248A83;
-    font-family: 'merriweather'; }
+    font-family: 'novocento'; }
 
 .comment-form-comment label {
   text-transform: uppercase;
@@ -752,6 +759,40 @@ h3 a {
 
 .vcard .fn {
   font-weight: bold; }
+
+input[type=email],
+input[type=password],
+input[type=search],
+input[type=text],
+input[type=url],
+textarea {
+  background: #f4f4f4; }
+
+.comment-form {
+  border-bottom: 1px solid #e1e1e1;
+  width: 770px; }
+  .comment-form input[type="text"],
+  .comment-form input[type=email] {
+    width: 370px; }
+  .comment-form .required {
+    color: #d99054; }
+  .comment-form label {
+    text-transform: uppercase;
+    font-family: 'novocento'; }
+
+.comment-form-author {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column;
+      flex-flow: column;
+  float: left; }
+
+.comment-form-email {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column;
+      flex-flow: column;
+  float: right; }
 
 .page-id-134 .site-content {
   display: -ms-flexbox;
@@ -927,7 +968,7 @@ input[type="search"],
 textarea {
   color: #666;
   border: 1px solid #ccc;
-  border-radius: 3px; }
+  border-radius: 0px; }
   input[type="text"]:focus,
   input[type="email"]:focus,
   input[type="url"]:focus,
@@ -941,11 +982,14 @@ input[type="email"],
 input[type="url"],
 input[type="password"],
 input[type="search"] {
-  padding: 3px; }
+  padding: 6px; }
+
+input[type="url"] {
+  width: 770px; }
 
 textarea {
   padding-left: 3px;
-  width: 100%; }
+  width: 770px; }
 
 /*--------------------------------------------------------------
 # Navigation

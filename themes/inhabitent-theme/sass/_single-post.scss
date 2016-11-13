@@ -46,6 +46,14 @@
     text-decoration: none;
 }
 
+.comments-title {
+    font-weight: bold;
+    font-size: 2rem;
+    color: black;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
 .comment-reply-title {
     text-transform: uppercase;
     font-size: 1.8rem;
@@ -53,7 +61,7 @@
     a {
         text-decoration: none;
         color: $company-green;
-        font-family: 'merriweather';
+        font-family: 'novocento';
     }
 }
 
@@ -78,4 +86,42 @@
 
 .vcard .fn {
     font-weight: bold;
+}
+
+input[type=email],
+input[type=password],
+input[type=search],
+input[type=text],
+input[type=url],
+textarea {
+    background: #f4f4f4;
+}
+
+.comment-form {
+    border-bottom: 1px solid #e1e1e1;
+    width: 770px;
+    input[type="text"],
+    input[type=email] {
+        width: 370px;
+    }
+    .required {
+        color: #d99054;
+    }
+    label {
+        text-transform: uppercase;
+        font-family: 'novocento';
+    }
+}
+
+.comment-form-author,
+{
+    display: flex;
+    flex-flow: column;
+    float: left;
+}
+
+.comment-form-email {
+    display: flex;
+    flex-flow: column;
+    float: right;
 }
