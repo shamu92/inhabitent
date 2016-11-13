@@ -68,23 +68,6 @@
     /*.read-more {
         padding-left: 3rem;
     }*/
-    .read-more-article {
-        border: 1px solid black;
-        text-decoration: none;
-        color: black;
-        font-size: 1rem;
-        padding: .7rem 1.3rem;
-        margin-top: 4%;
-        text-transform: uppercase;
-        &:visited {
-            color: black;
-        }
-        &:hover {
-            background-color: $company-green;
-            border: 1px solid $company-green;
-            color: white;
-        }
-    }
     .type-post .entry-footer {
         text-transform: uppercase;
         a {
@@ -94,5 +77,22 @@
     }
     .cat-links {
         margin-right: 2rem;
+    }
+}
+.read-more-article {
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    padding: .7rem 1.3rem;
+    margin-top: 4%;
+    text-transform: uppercase;
+    &:visited {
+        color: black;
+    }
+    &:hover {
+        background-color: $company-green;
+        border: 1px solid $company-green;
+        color: white;
     }
 }

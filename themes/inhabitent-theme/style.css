@@ -423,26 +423,6 @@ h3 a {
     line-height: 1;
     text-transform: uppercase;
     color: #fff; }
-  .blog .read-more-article,
-  .single-post .read-more-article,
-  .date .read-more-article {
-    border: 1px solid black;
-    text-decoration: none;
-    color: black;
-    font-size: 1rem;
-    padding: .7rem 1.3rem;
-    margin-top: 4%;
-    text-transform: uppercase; }
-    .blog .read-more-article:visited,
-    .single-post .read-more-article:visited,
-    .date .read-more-article:visited {
-      color: black; }
-    .blog .read-more-article:hover,
-    .single-post .read-more-article:hover,
-    .date .read-more-article:hover {
-      background-color: #248A83;
-      border: 1px solid #248A83;
-      color: white; }
   .blog .type-post .entry-footer,
   .single-post .type-post .entry-footer,
   .date .type-post .entry-footer {
@@ -456,6 +436,21 @@ h3 a {
   .single-post .cat-links,
   .date .cat-links {
     margin-right: 2rem; }
+
+.read-more-article {
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  padding: .7rem 1.3rem;
+  margin-top: 4%;
+  text-transform: uppercase; }
+  .read-more-article:visited {
+    color: black; }
+  .read-more-article:hover {
+    background-color: #248A83;
+    border: 1px solid #248A83;
+    color: white; }
 
 .header-background {
   display: -ms-flexbox;
@@ -1443,6 +1438,51 @@ object {
   font-family: 'novocento';
   font-size: 1.8rem;
   line-height: 1; }
+
+/***************Search styling******************/
+.search-results .site-main {
+  margin-right: 3rem;
+  width: 770px; }
+
+.search-results .page-title-search {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  border-bottom: 1px solid #e1e1e1; }
+
+.search-results .entry-title a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #248A83;
+  font-size: 2.2rem;
+  font-weight: bold; }
+
+.search-results .entry-meta {
+  font-family: 'novocento'; }
+
+/***************404 error styling******************/
+.not-found .widgettitle,
+.not-found .widget-title {
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.not-found ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .not-found ul li a {
+    color: #248A83;
+    text-decoration: none;
+    font-family: 'merriweather'; }
+
+.not-found #archives-dropdown--1 {
+  font-family: 'merriweather'; }
+
+.not-found fieldset {
+  border: none; }
+
+.not-found .search-submit {
+  display: none; }
 
 .site-footer {
   background: url(../../images/dark-wood@2x.png);
