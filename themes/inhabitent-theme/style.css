@@ -852,31 +852,36 @@ textarea {
   padding: 2rem 3rem;
   padding-right: 0;
   font-size: 1.2rem;
-  padding-top: 3rem;
-  padding-bottom: 0;
-  margin-bottom: 0; }
+  padding-top: 3rem; }
   .widget-area h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 1.5rem; }
+    font-size: 1.4rem;
+    font-weight: bold; }
   .widget-area a {
     text-decoration: none;
-    color: #248A83; }
+    color: #248A83;
+    font-family: 'merriweather';
+    font-size: 1rem; }
   .widget-area ul {
     list-style-type: none;
     padding: 0;
     margin: 0; }
-  .widget-area h2 {
-    text-transform: uppercase; }
+  .widget-area p {
+    font-size: 1rem; }
+  .widget-area .day-of-week {
+    font-weight: bold; }
+  .widget-area .fa {
+    padding-right: 10px; }
+  .widget-area .side-bar-address {
+    display: -ms-flexbox;
+    display: flex; }
+    .widget-area .side-bar-address p {
+      margin: 0;
+      padding-right: 1rem; }
+    .widget-area .side-bar-address i {
+      padding-top: 7px; }
 
-/*.textwidget a {
-    text-decoration: none;
-    color: $company-green;
-}
-
-.widget-title {
-    text-transform: uppercase;
-}*/
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
