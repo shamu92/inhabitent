@@ -814,9 +814,7 @@ textarea {
   background: #f4f4f4; }
 
 .comment-form {
-  border-bottom: 1px solid #e1e1e1;
-  width: 770px;
-  margin-bottom: 5rem; }
+  width: 770px; }
   .comment-form input[type="text"],
   .comment-form input[type=email] {
     width: 370px; }
@@ -1523,6 +1521,10 @@ object {
     color: white;
     padding: .3rem .5rem;
     background: grey; }
+
+/***************Search bar in header******************/
+fieldset {
+  border: none; }
 
 .site-footer {
   background: url(../../images/dark-wood@2x.png);
