@@ -745,10 +745,20 @@ h3 a {
 .nav-next {
   display: none; }
 
+.comment-list {
+  list-style: none; }
+  .comment-list img {
+    float: left;
+    padding-right: 1rem; }
+
+ul li {
+  list-style: none; }
+
 .comment-reply-link,
 .logged-in-as a {
   color: #248A83;
-  text-decoration: none; }
+  text-decoration: none;
+  font-family: 'merriweather'; }
   .comment-reply-link:visited,
   .logged-in-as a:visited {
     color: #248A83; }
@@ -784,7 +794,8 @@ h3 a {
       color: #248A83; }
 
 .vcard .fn {
-  font-weight: bold; }
+  font-weight: bold;
+  font-style: normal; }
 
 input[type=email],
 input[type=password],
@@ -814,7 +825,8 @@ textarea {
   display: flex;
   -ms-flex-flow: column;
       flex-flow: column;
-  float: left; }
+  float: left;
+  font-style: none; }
 
 .comment-form-email {
   display: -ms-flexbox;
@@ -1146,6 +1158,8 @@ a {
     text-decoration: none;
     color: #248A83;
     font-size: 1.5rem; }
+    .product-types a:hover {
+      color: black; }
 
 /*****************************************fix this ****************************************************************
 ************************************************************************
@@ -1194,6 +1208,8 @@ a {
     color: black;
     text-decoration: none;
     font-family: 'merriweather'; }
+    .type-product .title-and-price a:hover {
+      color: #248A83; }
   .type-product .title-and-price .entry-title:after {
     white-space: nowrap;
     content: "...............";

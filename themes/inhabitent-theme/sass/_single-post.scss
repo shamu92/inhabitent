@@ -36,10 +36,23 @@
     display: none;
 }
 
+.comment-list {
+    list-style: none;
+    img {
+        float: left;
+        padding-right: 1rem;
+    }
+}
+
+ul li {
+    list-style: none;
+}
+
 .comment-reply-link,
 .logged-in-as a {
     color: $company-green;
     text-decoration: none;
+    font-family: 'merriweather';
     &:visited {
         color: $company-green;
     }
@@ -85,6 +98,7 @@
 
 .vcard .fn {
     font-weight: bold;
+    font-style: normal;
 }
 
 input[type=email],
@@ -121,6 +135,7 @@ textarea {
     display: flex;
     flex-flow: column;
     float: left;
+    font-style: none;
 }
 
 .comment-form-email {
