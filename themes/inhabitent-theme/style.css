@@ -1066,7 +1066,7 @@ a {
 .menu-item a {
   color: #248A83;
   padding: 1rem;
-  padding-right: 1.6rem;
+  padding-right: 0;
   display: -ms-flexbox;
   display: flex;
   text-transform: uppercase;
@@ -1525,6 +1525,25 @@ object {
 /***************Search bar in header******************/
 fieldset {
   border: none; }
+
+.header .search-field {
+  display: none;
+  height: 20px;
+  width: 140px; }
+
+#btn-search {
+  color: #248A83;
+  background: none;
+  padding-left: .5rem;
+  font-size: 1rem; }
+  #btn-search:focus {
+    outline: none; }
+
+#search {
+  border: none;
+  background: white; }
+  #search:focus {
+    outline: none; }
 
 .site-footer {
   background: url(../../images/dark-wood@2x.png);
