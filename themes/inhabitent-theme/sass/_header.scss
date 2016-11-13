@@ -3,7 +3,7 @@
 .header-background {
     display: flex;
     background: rgba(255, 255, 255, 0.8);
-    border-bottom: 1px solid #e1e1e1;
+    border-bottom: $standard-border;
     width: 100%;
     position: fixed;
     z-index: 1;
