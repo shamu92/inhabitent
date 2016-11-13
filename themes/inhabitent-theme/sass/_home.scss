@@ -2,7 +2,6 @@
     display: flex;
     width: 1120px;
     margin: 0 auto;
-    margin-bottom: 7rem;
 }
 
 .type-post {
@@ -11,7 +10,9 @@
         width: 740px;
     }
 }
-
+.site-main {
+    margin-bottom:5rem;
+}
 .type-post .entry-content {
     width: 740px;
 }

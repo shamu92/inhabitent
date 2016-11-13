@@ -346,13 +346,15 @@ h3 a {
   display: -ms-flexbox;
   display: flex;
   width: 1120px;
-  margin: 0 auto;
-  margin-bottom: 7rem; }
+  margin: 0 auto; }
 
 .type-post {
   width: 73%; }
   .type-post p {
     width: 740px; }
+
+.site-main {
+  margin-bottom: 5rem; }
 
 .type-post .entry-content {
   width: 740px; }
@@ -770,7 +772,8 @@ textarea {
 
 .comment-form {
   border-bottom: 1px solid #e1e1e1;
-  width: 770px; }
+  width: 770px;
+  margin-bottom: 5rem; }
   .comment-form input[type="text"],
   .comment-form input[type=email] {
     width: 370px; }
@@ -779,6 +782,8 @@ textarea {
   .comment-form label {
     text-transform: uppercase;
     font-family: 'novocento'; }
+  .comment-form .submit {
+    margin: 0; }
 
 .comment-form-author {
   display: -ms-flexbox;
@@ -847,7 +852,9 @@ textarea {
   padding: 2rem 3rem;
   padding-right: 0;
   font-size: 1.2rem;
-  padding-top: 3rem; }
+  padding-top: 3rem;
+  padding-bottom: 0;
+  margin-bottom: 0; }
   .widget-area h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -943,8 +950,7 @@ input[type="submit"] {
   border: #248A83;
   text-transform: uppercase;
   font-size: .9rem;
-  padding: .8rem 1.5rem;
-  margin-bottom: 5rem; }
+  padding: .8rem 1.5rem; }
   button:hover,
   input[type="button"]:hover,
   input[type="reset"]:hover,
@@ -1128,8 +1134,7 @@ a {
       flex-wrap: wrap;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  width: 1120px;
-  margin-bottom: 5rem; }
+  width: 1120px; }
   .all-products img {
     height: 200px;
     width: 260px;
@@ -1377,16 +1382,12 @@ object {
 .tax-product_type .product-area {
   margin-bottom: 5rem; }
 
-.type-product .entry-content {
-  display: none; }
-
 .single-product-content {
   display: -ms-flexbox;
   display: flex;
   width: 1120px;
   margin: 3rem auto;
-  height: 700 px;
-  padding-bottom: 6rem; }
+  height: 700 px; }
 
 .single-product .size-large {
   max-width: 47%;
