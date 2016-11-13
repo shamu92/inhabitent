@@ -722,8 +722,8 @@ h3 a {
   margin-bottom: 4rem;
   text-decoration: none;
   color: black;
-  font-size: 1rem;
-  padding: .6rem 1.3rem;
+  font-size: .9rem;
+  padding: .6rem 1.5rem;
   margin-top: 4%;
   text-transform: uppercase; }
   .like-button a,
@@ -740,9 +740,6 @@ h3 a {
     background-color: #248A83;
     border: 1px solid #248A83;
     color: white; }
-
-.social-buttons a {
-  font-family: 'merriweather'; }
 
 .nav-previous,
 .nav-next {
