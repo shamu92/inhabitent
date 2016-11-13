@@ -1529,24 +1529,27 @@ fieldset {
   border: none; }
 
 .header .search-field {
-  display: none;
-  height: 20px;
-  width: 140px; }
+  display: none; }
 
-#btn-search {
-  color: #248A83;
-  background: none;
-  padding: 0;
-  padding-left: .5rem;
-  font-size: 1rem; }
-  #btn-search:focus {
-    outline: none; }
-
-#search {
+.header #search {
   border: none;
-  background: white; }
-  #search:focus {
+  background: white;
+  padding: 0;
+  padding-left: 1rem; }
+  .header #search:focus {
     outline: none; }
+
+.search-bar-header {
+  display: -ms-flexbox;
+  display: flex; }
+  .search-bar-header .search-icon {
+    color: #248A83;
+    padding: 0;
+    padding-left: .5rem;
+    padding-top: .1rem;
+    font-size: 1rem; }
+    .search-bar-header .search-icon:focus {
+      outline: none; }
 
 .site-footer {
   background: url(../../images/dark-wood@2x.png);

@@ -78,25 +78,28 @@ fieldset {
 
 .header .search-field {
     display: none;
-    height: 20px;
-    width: 140px;
 }
 
-#btn-search {
-    color: $company-green;
-    background: none;
+.header #search {
+    border: none;
+    background: white;
     padding: 0;
-    padding-left: .5rem;
-    font-size: 1rem;
+    padding-left: 1rem;
     &:focus {
         outline: none;
     }
 }
 
-#search {
-    border: none;
-    background: white;
-    &:focus {
-        outline: none;
+.search-bar-header {
+    display: flex;
+    .search-icon {
+        color: $company-green;
+        padding: 0;
+        padding-left: .5rem;
+        padding-top: .1rem;
+        font-size: 1rem;
+        &:focus {
+            outline: none;
+        }
     }
 }

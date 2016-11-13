@@ -1,4 +1,5 @@
-		jQuery('#btn-search').on('click', function(e) {
-		    e.preventDefault();
-		    jQuery('#search').animate({ width: 'toggle' }).focus();
-		});
+jQuery('.search-icon').on('click', function() {
+    //  e.preventDefault();
+    jQuery('#search').animate({ width: 'toggle' }).focus();
+
+});
