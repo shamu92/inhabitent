@@ -24,9 +24,11 @@ function red_starter_body_classes( $classes ) {
 function my_login_logo() { ?>
    <style type="text/css">
        #login h1 a, .login h1 a {
-           background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/images/logos/inhabitent-logo-text-dark.svg);
-           padding-bottom: 30px;
-            background-size: 310px !important; width: 310px !important;background-position: bottom !important;
+            background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/images/logos/inhabitent-logo-text-dark.svg);
+            padding-bottom: 30px;
+			background-size: 310px !important; 
+			width: 310px !important;
+			background-position: bottom !important;
        }
    </style>
 <?php }
