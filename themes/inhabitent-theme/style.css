@@ -895,7 +895,7 @@ article .comment-content p {
   background-color: #248A83; }
 
 .widget-area {
-  width: 370px;
+  width: 310px;
   border-left: 1px solid #e1e1e1;
   padding: 2rem 3rem;
   padding-right: 0;
@@ -1469,8 +1469,8 @@ object {
 
 /***************Search styling******************/
 .search-results .site-main {
-  margin-right: 3rem;
-  width: 770px; }
+  width: 800px;
+  margin-right: 2rem; }
 
 .search-results .page-title-search {
   text-align: left;
@@ -1488,8 +1488,12 @@ object {
 .search-results .entry-meta {
   font-family: 'novocento'; }
 
-.search .page-content .search-icon i {
-  display: none; }
+.search,
+.not-found {
+  margin-right: 3rem; }
+  .search .page-content .search-icon i,
+  .not-found .page-content .search-icon i {
+    display: none; }
 
 /***************404 error styling******************/
 .not-found .widgettitle,
@@ -1533,7 +1537,9 @@ fieldset {
   border: none; }
 
 .header .search-field {
-  display: none; }
+  display: none;
+  text-transform: uppercase;
+  width: 250px; }
 
 .header #search {
   border: none;

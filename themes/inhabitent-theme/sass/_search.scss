@@ -2,8 +2,8 @@
 
 .search-results {
     .site-main {
-        margin-right: 3rem;
-        width: 770px;
+        width: 800px;
+        margin-right: 2rem;
     }
     .page-title-search {
         text-align: left;
@@ -23,8 +23,13 @@
     }
 }
 
-.search .page-content .search-icon i {
-    display: none;
+.search,
+.not-found,
+{
+    margin-right: 3rem;
+    .page-content .search-icon i {
+        display: none;
+    }
 }
 
 
@@ -82,6 +87,8 @@ fieldset {
 
 .header .search-field {
     display: none;
+    text-transform: uppercase;
+    width: 250px;
 }
 
 .header #search {

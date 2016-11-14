@@ -1,5 +1,5 @@
-        .widget-area {
-    width: 370px;
+.widget-area {
+    width: 310px;
     border-left: $standard-border;
     padding: 2rem 3rem;
     padding-right: 0;
@@ -26,11 +26,11 @@
         font-size: 1rem;
     }
     .day-of-week {
-        font-weight:bold;
+        font-weight: bold;
     }
     .fa {
-            padding-right: 10px;
-        }
+        padding-right: 10px;
+    }
     .side-bar-address {
         display: flex;
         p {
