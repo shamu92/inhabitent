@@ -1488,6 +1488,9 @@ object {
 .search-results .entry-meta {
   font-family: 'novocento'; }
 
+.search .page-content .search-icon i {
+  display: none; }
+
 /***************404 error styling******************/
 .not-found .widgettitle,
 .not-found .widget-title {
@@ -1534,7 +1537,7 @@ fieldset {
 
 .header #search {
   border: none;
-  background: white;
+  background: none;
   padding: 0;
   padding-left: 1rem; }
   .header #search:focus {

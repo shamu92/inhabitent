@@ -23,6 +23,10 @@
     }
 }
 
+.search .page-content .search-icon i {
+    display: none;
+}
+
 
 /***************404 error styling******************/
 
@@ -82,7 +86,7 @@ fieldset {
 
 .header #search {
     border: none;
-    background: white;
+    background: none;
     padding: 0;
     padding-left: 1rem;
     &:focus {
