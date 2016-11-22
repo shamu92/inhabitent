@@ -1058,6 +1058,10 @@ textarea {
 .comment-form {
   margin-right: 1rem; }
 
+.comment-list {
+  padding-left: 0;
+  margin-left: 0; }
+
 .comment-respond p a {
   padding: 0; }
 
