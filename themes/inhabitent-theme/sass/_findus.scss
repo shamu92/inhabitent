@@ -5,6 +5,7 @@
     h1 {
         text-transform: uppercase;
         letter-spacing: 2px;
+        font-size: 2.5rem;
     }
     .find-us-sub-titles {
         text-transform: uppercase;
@@ -29,7 +30,7 @@
     input[type=text],
     input[type=url] {
         border-radius: 0;
-        padding: 6px;
+        /*padding: 6px;*/
     }
     label {
         text-transform: uppercase;
@@ -43,7 +44,6 @@
 
 .wpcf7-text {
     background: #f4f4f4;
-    padding: 5rem;
 }
 
 .wpcf7-textarea {
