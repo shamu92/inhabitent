@@ -28,13 +28,17 @@
 				</div> .site-branding -->
 				
 				
-				
+
+
 
 				<div class = "header-background">
 					<div class="header">	<!-- #site-navigation -->
 							<!--Header Logo -->
-							<a href = "http://localhost/inhabitent/"><img class ="logo-top" src = "<?php echo get_template_directory_uri(); ?>/images/logos/inhabitent-logo-tent.svg" alt = "inhabitent logo"></a>
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+                           <img class ="logo-top" src = "<?php echo get_template_directory_uri(); ?>/images/logos/inhabitent-logo-tent.svg" alt = "inhabitent logo">
+                        </a>
 							<!--End of header Logo -->
+
 						<div class= "main-nav-bar">
 							<nav id="site-navigation" class="main-navigation" role="navigation">
 					
