@@ -76,7 +76,12 @@ function archive_product_title( $title ) {
     elseif ( is_tax() ) {
        $title = single_term_title( '', false );
    }
-
+	elseif ( is_tag() ) {
+        $title = single_tag_title( '', false );
+	}
+	elseif ( is_category() ) {
+       $title =  single_cat_title( '', false );
+    } 
     return $title;
 }
 

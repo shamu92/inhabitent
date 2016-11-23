@@ -1436,8 +1436,18 @@ object {
 .gallery-caption {
   display: block; }
 
-.category-contests .entry-content p {
+.category-contests .entry-content p,
+.category-how-tos .entry-content p,
+.category-contests .entry-content p,
+.category-recipes .entry-content p {
   width: 800px; }
+
+.category-contests .entry-title a,
+.category-how-tos .entry-title a,
+.category-contests .entry-title a,
+.category-recipes .entry-title a {
+  text-decoration: none;
+  color: #248A83; }
 
 /*--------------------------------------------------------------
 # Page Templates

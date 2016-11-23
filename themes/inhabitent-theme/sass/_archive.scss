@@ -1,3 +1,12 @@
-.category-contests .entry-content p {
-    width: 800px;
+.category-contests,
+.category-how-tos,
+.category-contests,
+.category-recipes {
+    .entry-content p {
+        width: 800px;
+    }
+    .entry-title a {
+        text-decoration: none;
+        color: $company-green;
+    }
 }
