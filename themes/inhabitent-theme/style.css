@@ -478,6 +478,9 @@ h3 a {
       justify-content: space-between;
   margin: 0 auto; }
 
+.header-up {
+  top: -40px; }
+
 .logo-top {
   height: 50px;
   width: auto;
@@ -491,7 +494,7 @@ h3 a {
 .hero-banner {
   background: url(../../images/logos/inhabitent-logo-full.svg) center no-repeat, linear-gradient(rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), url(../../images/home-hero.jpg);
   height: 100vh;
-  background-size: 50% 50%, cover, cover; }
+  background-size: auto, cover, cover; }
 
 .site-content {
   padding-top: 50px; }
@@ -1337,6 +1340,9 @@ a {
 /* Search widget. */
 .widget_search .search-submit {
   display: none; }
+
+.widget-archive a:visited {
+  color: #248A83; }
 
 /*--------------------------------------------------------------
 # Content

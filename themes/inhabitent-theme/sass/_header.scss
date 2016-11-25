@@ -18,6 +18,10 @@
     margin: 0 auto;
 }
 
+.header-up {
+    top: -40px; // same as header height. use variables in LESS/SASS
+}
+
 .logo-top {
     height: 50px;
     width: auto;

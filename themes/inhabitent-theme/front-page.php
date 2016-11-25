@@ -79,7 +79,7 @@ get_header(); ?>
         </div>
         <div class="right-box">
             <div class="box-2">
-                <h3><a class = "adventure-link" href ="#">A night with Friends at the Beach</a></h3><br>
+                <h3><a class = "adventure-link" href ="#">A Night with Friends at the Beach</a></h3><br>
                 <p><a class = "read-more-button" href ="#">Read More</a></p>
 
             </div>
