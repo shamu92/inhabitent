@@ -9,4 +9,4 @@ The website includes custom fields to change the hero banner on the about page a
 
 A widgetized area was created on the side bar with the option of changing the business hours and the address. 
 
-## Created By: Sasha Altshteyn;
+## Created By: Aleksandr Altshteyn;
