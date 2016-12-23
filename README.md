@@ -1,15 +1,12 @@
-### RED Starter to Inhabitent Theme
 
-A WordPress starter theme for RED Academy students, forked from Underscores.
+# Inhabitent
 
-Download me, add me to your `wp-content` directory, rename me, and and start themin'!
-
-# Created By: Sasha Altshteyn;
-
-I used the red academy WordPress starter theme to create the lay out of this website. The webisite was made for a fictional
+![Inhabitent website screen shot](https://github.com/shamu92/inhabitent/blob/master/themes/inhabitent-theme/inhabitent_ss.png "Inhabitent website screen shot")
+Using the RED academy WordPress starter theme, I created the lay out of this website. The webisite was made for a fictional
 company called Inhabitent camping supply co. 
 
-I used the WordPress CMS, CSS/SASS, Jquery/JavaScript, PHP, Gulp, and Github to complete this project.
+The website includes custom fields to change the hero banner on the about page as well as the content on that page. 
 
-####The website includes custom fields to change the hero banner on the about page as well as the content on that page. 
-#### A widgetized area was created on the side bar with the option of changing the business hours and the address. 
+A widgetized area was created on the side bar with the option of changing the business hours and the address. 
+
+## Created By: Sasha Altshteyn;
